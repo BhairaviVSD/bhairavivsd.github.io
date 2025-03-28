@@ -1,0 +1,19 @@
+.projects {
+    padding: 4rem 2rem;
+  }
+  
+  .projects h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .projects ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .projects li {
+    padding: 0.5rem 0;
+    font-size: 1rem;
+  }
+  
