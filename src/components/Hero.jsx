@@ -8,7 +8,7 @@ export default function Hero() {
         <p className={styles.subheading}>
           I build scalable software systems and craft digital experiences.
         </p>
-        <a href="#projects" className={styles.cta}>See My Work</a>
+        {/* <a href="#projects" className={styles.cta}>See My Work</a> */}
       </div>
     </section>
   );

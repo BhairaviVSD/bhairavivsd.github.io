@@ -9,7 +9,6 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 
 function App() {
-  // Scroll to top on initial load
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
