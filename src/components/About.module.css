@@ -1,17 +1,131 @@
 .about {
-    padding: 4rem 2rem;
-    background-color: #fefefe;
+  padding: 6rem 2rem;
+  background-color: #f8f9fa;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.sectionTitle {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  position: relative;
+  color: #1a2a6c;
+}
+
+.sectionTitle::after {
+  content: '';
+  position: absolute;
+  bottom: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 4px;
+  background: linear-gradient(to right, #1a2a6c, #b21f1f);
+}
+
+.content {
+  display: flex;
+  gap: 3rem;
+  margin-bottom: 3rem;
+}
+
+.aboutText {
+  flex: 1;
+}
+
+.aboutText p {
+  margin-bottom: 1.2rem;
+  line-height: 1.7;
+  font-size: 1.1rem;
+}
+
+.skills {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.skillCategory h3 {
+  font-size: 1.3rem;
+  margin-bottom: 0.8rem;
+  color: #1a2a6c;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 0.5rem;
+}
+
+.skillCategory ul {
+  list-style: none;
+  padding: 0;
+}
+
+.skillCategory li {
+  margin-bottom: 0.5rem;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.skillCategory li::before {
+  content: '▹';
+  position: absolute;
+  left: 0;
+  color: #b21f1f;
+}
+
+.education {
+  margin-top: 2.5rem;
+}
+
+.education h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  color: #1a2a6c;
+  text-align: center;
+}
+
+.educationItem {
+  display: flex;
+  justify-content: space-between;
+  border-left: 3px solid #b21f1f;
+  padding-left: 1.5rem;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #eee;
+}
+
+.degree h4 {
+  font-size: 1.2rem;
+  margin-bottom: 0.3rem;
+}
+
+.degree p {
+  color: #555;
+}
+
+.eduDetails {
+  text-align: right;
+}
+
+.gpa {
+  font-weight: 600;
+  color: #1a2a6c;
+}
+
+@media (max-width: 768px) {
+  .content {
+    flex-direction: column;
   }
   
-  .about h2 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
+  .educationItem {
+    flex-direction: column;
+    gap: 0.5rem;
   }
   
-  .about p {
-    max-width: 600px;
-    margin: auto;
-    line-height: 1.6;
-    color: #444;
+  .eduDetails {
+    text-align: left;
   }
-  
+}
