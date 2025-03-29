@@ -1,25 +1,16 @@
 .hero {
-    padding: 6rem 2rem;
-    text-align: center;
-    background: linear-gradient(to right, #f7f7f7, #ffffff);
-  }
-  
-  .heading {
-    font-size: 2.5rem;
-    font-weight: bold;
-  }
-  
-  .subheading {
-    font-size: 1.2rem;
-    margin: 1rem 0;
-    color: #555;
-  }
-  
-  .cta {
-    background: black;
-    color: white;
-    padding: 0.75rem 1.5rem;
-    border-radius: 6px;
-    text-decoration: none;
-  }
-  
+  padding: 4rem 2rem;
+  text-align: center;
+}
+.resumeBtn {
+  margin-top: 1rem;
+  padding: 0.8rem 1.5rem;
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  text-decoration: none;
+}
+.resumeBtn:hover {
+  opacity: 0.9;
+}
