@@ -25,7 +25,7 @@ const Navbar = () => {
   return (
     <nav className={`${styles.navbar} ${isScrolled ? styles.scrolled : ''}`}>
       <div className={styles.container}>
-        <a href="#" className={styles.logo}>BS</a>
+        <a href="#" className={styles.logo}>BVS</a>
         
         <div className={styles.hamburger} onClick={toggleMobileMenu}>
           <span className={`${styles.bar} ${mobileMenuOpen ? styles.active : ''}`}></span>

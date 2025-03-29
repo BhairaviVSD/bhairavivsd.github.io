@@ -1,15 +1,22 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import styles from './Footer.module.css';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
-  
+  const [visits, setVisits] = useState(null);
+
+  useEffect(() => {
+    fetch('https://api.countapi.xyz/hit/bhairavivsd.github.io/visits')
+      .then((res) => res.json())
+      .then((data) => setVisits(data.value));
+  }, []);
+
   return (
     <footer className={styles.footer}>
       <div className={styles.container}>
         <div className={styles.content}>
-          <div className={styles.logo}>BS</div>
-          
+          <div className={styles.logo}>BVS</div>
+
           <div className={styles.links}>
             <div className={styles.linkGroup}>
               <h3>Navigation</h3>
@@ -21,7 +28,7 @@ const Footer = () => {
                 <li><a href="#contact">Contact</a></li>
               </ul>
             </div>
-            
+
             <div className={styles.linkGroup}>
               <h3>Projects</h3>
               <ul>
@@ -32,7 +39,7 @@ const Footer = () => {
                 <li><a href="#projects">TaskManager</a></li>
               </ul>
             </div>
-            
+
             <div className={styles.linkGroup}>
               <h3>Connect</h3>
               <ul>
@@ -43,10 +50,13 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        
+
         <div className={styles.bottom}>
           <p className={styles.copyright}>© {currentYear} Bhairavi Sawantdesai. All rights reserved.</p>
           <p className={styles.credits}>Designed & Built with ❤️</p>
+          {visits !== null && (
+            <p className={styles.counter}>Visitors: {visits.toLocaleString()}</p>
+          )}
         </div>
       </div>
     </footer>

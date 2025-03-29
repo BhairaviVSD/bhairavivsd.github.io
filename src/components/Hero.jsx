@@ -15,7 +15,7 @@ const Hero = () => {
           <span className={styles.greeting}>Hello, I'm</span>
           <span className={styles.fullName}>Bhairavi Sawantdesai</span>
         </h1>
-        <h2 className={styles.title}>Software Engineer & ML Enthusiast</h2>
+        <h2 className={styles.title}>Software Engineer & AI Developer</h2>
         <p className={styles.description}>
           Building scalable systems and leveraging AI to solve real-world problems
         </p>
