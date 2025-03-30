@@ -1,12 +1,77 @@
-# React + Vite
+```markdown
+# 💼 Bhairavi Sawantdesai – Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my personal portfolio website built using **React** and **Vite**. It showcases my work in software engineering, machine learning, embedded systems, and cloud-native development.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tech Stack
 
-## Expanding the ESLint configuration
+- **Frontend**: React, Vite
+- **Styling**: CSS Modules, Responsive Design
+- **Deployment**: GitHub Pages
+- **Analytics**: Google Analytics v4
+- **Icons**: Font Awesome
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📁 Folder Structure
+
+```
+src/
+├── assets/              # Static images and assets
+├── components/          # Reusable components (Hero, About, Projects, etc.)
+│   ├── Hero.jsx / Hero.module.css
+│   ├── About.jsx / About.module.css
+│   ├── Projects.jsx / Projects.module.css
+│   ├── Experience.jsx / Experience.module.css
+│   ├── Contact.jsx / Contact.module.css
+│   ├── Navbar.jsx / Navbar.module.css
+│   └── Footer.jsx / Footer.module.css
+├── App.jsx              # Root component
+├── main.jsx             # Entry point
+└── index.css            # Global styles
+```
+
+## 🛠 Features
+
+- ⚡ Built with React + Vite for fast dev and build times
+- 🎨 Responsive and mobile-first UI
+- 🌐 Custom domain support
+- 🧾 Downloadable resume
+- 📬 Contact form with mailto integration
+- 🎯 Smooth scrolling & animations
+- 📈 Visitor analytics using Google Analytics
+- 🧮 GitHub visitor counter (optional fallback using CountAPI)
+
+## 🔧 Scripts
+
+```bash
+npm install     # Install dependencies
+npm run dev     # Start development server
+npm run build   # Create production build
+npm run preview # Preview production build
+```
+
+## 📦 Deployment
+
+Deployed via **GitHub Pages** using the `vite.config.js` base path and GitHub Actions.
+
+Make sure to update `vite.config.js`:
+
+```js
+export default defineConfig({
+  base: '/<your-repo-name>/', // example: '/bhairavivsd.github.io/'
+  plugins: [react()],
+});
+```
+
+Then run:
+
+```bash
+npm run build
+npx gh-pages -d dist
+```
+
+## 📬 Contact
+
+- 📧 bhairavi.s@nyu.edu
+- 🌐 [LinkedIn](https://linkedin.com/in/bhairavi-sawantdesai)
+- 💻 [GitHub](https://github.com/BhairaviVSD)

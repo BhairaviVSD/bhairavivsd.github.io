@@ -29,51 +29,41 @@
 
 .content {
   display: flex;
-  gap: 3rem;
+  gap: 4rem;
   margin-bottom: 3rem;
+  flex-wrap: wrap;
 }
 
 .aboutText {
-  flex: 1;
+  flex: 0 0 60%;
+  font-size: 1.1rem;
 }
 
 .aboutText p {
   margin-bottom: 1.2rem;
   line-height: 1.7;
-  font-size: 1.1rem;
 }
 
 .skills {
-  flex: 1;
+  flex: 0 0 40%;
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 2rem;
 }
 
 .skillCategory h3 {
-  font-size: 1.3rem;
-  margin-bottom: 0.8rem;
-  color: #1a2a6c;
-  border-bottom: 2px solid #ddd;
-  padding-bottom: 0.5rem;
-}
-
-.skillCategory ul {
-  list-style: none;
-  padding: 0;
-}
-
-.skillCategory li {
+  font-size: 1.2rem;
   margin-bottom: 0.5rem;
-  padding-left: 1.5rem;
-  position: relative;
+  color: #1a2a6c;
+  font-weight: 700;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 0.3rem;
 }
 
-.skillCategory li::before {
-  content: '▹';
-  position: absolute;
-  left: 0;
-  color: #b21f1f;
+.skillCategory p {
+  font-size: 0.95rem;
+  color: #333;
+  line-height: 1.6;
 }
 
 .education {
@@ -119,22 +109,18 @@
   .content {
     flex-direction: column;
   }
-  
+
+  .aboutText,
+  .skills {
+    flex: 1 1 100%;
+  }
+
   .educationItem {
     flex-direction: column;
     gap: 0.5rem;
   }
-  
+
   .eduDetails {
     text-align: left;
   }
-}
-
-.twoColumn {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  column-gap: 1.5rem;
-  row-gap: 0.3rem;
-  padding: 0;
-  list-style: none;
 }
