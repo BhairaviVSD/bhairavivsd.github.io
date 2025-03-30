@@ -129,3 +129,12 @@
     text-align: left;
   }
 }
+
+.twoColumn {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 1.5rem;
+  row-gap: 0.3rem;
+  padding: 0;
+  list-style: none;
+}
