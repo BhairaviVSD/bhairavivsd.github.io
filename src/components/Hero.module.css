@@ -6,7 +6,7 @@
   position: relative;
   padding: 4rem 2rem;
   overflow: hidden;
-  background: linear-gradient(135deg, #fffdfc 0%, #f9f9f9 100%);
+  background: linear-gradient(135deg, #fff1e6 0%, #fef6e4 100%);
   color: #2c2c2c;
 }
 
@@ -27,7 +27,7 @@
 .greeting {
   font-size: 1.5rem;
   font-weight: 400;
-  color: #e94e57;
+  color: #7d9a50; 
   display: block;
   margin-bottom: 0.5rem;
 }
@@ -35,7 +35,7 @@
 .fullName {
   font-size: 4rem;
   font-weight: 700;
-  background: linear-gradient(90deg, #e94e57, #f4c95d);
+  background: linear-gradient(90deg, #7d9a50, #e29578); 
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -64,8 +64,7 @@
   margin-bottom: 2rem;
 }
 
-.primaryBtn,
-.secondaryBtn {
+.primaryBtn, .secondaryBtn {
   padding: 0.8rem 1.5rem;
   font-size: 1rem;
   font-weight: 600;
@@ -75,24 +74,24 @@
 }
 
 .primaryBtn {
-  background-color: #8ca68c;
+  background-color: #e29578; 
   color: white;
-  border: 2px solid #8ca68c;
+  border: 2px solid #e29578;
 }
 
 .primaryBtn:hover {
   background-color: transparent;
-  color: #8ca68c;
+  color: #e29578;
 }
 
 .secondaryBtn {
   background-color: transparent;
-  color: #8ca68c;
-  border: 2px solid #8ca68c;
+  color: #e29578;
+  border: 2px solid #e29578;
 }
 
 .secondaryBtn:hover {
-  background-color: #dbe3d0;
+  background-color: #fde2dd;
 }
 
 .socialIcons {
@@ -108,7 +107,7 @@
 }
 
 .socialIcon:hover {
-  color: #8ca68c;
+  color: #e29578;
   transform: translateY(-3px);
 }
 

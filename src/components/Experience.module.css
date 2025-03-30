@@ -1,6 +1,6 @@
 .experience {
   padding: 6rem 2rem;
-  background-color: #fdf8f8;
+  background-color: #fef6e4;
 }
 
 .container {
@@ -13,7 +13,7 @@
   font-size: 2.5rem;
   margin-bottom: 3rem;
   position: relative;
-  color: #e94e57;
+  color: #7d9a50;
 }
 
 .sectionTitle::after {
@@ -24,7 +24,7 @@
   transform: translateX(-50%);
   width: 80px;
   height: 4px;
-  background: linear-gradient(to right, #e94e57, #f4c95d);
+  background: linear-gradient(to right, #7d9a50, #e29578);
 }
 
 .tabsContainer {
@@ -39,7 +39,7 @@
   display: flex;
   flex-direction: column;
   min-width: 200px;
-  background-color: #f1f1f1;
+  background-color: #f7eedd;
 }
 
 .tabButton {
@@ -49,20 +49,20 @@
   text-align: left;
   font-size: 1rem;
   font-weight: 500;
-  color: #2c2c2c;
+  color: #5c5c5c;
   cursor: pointer;
   transition: all 0.3s ease;
   position: relative;
 }
 
 .tabButton:hover {
-  background-color: rgba(233, 78, 87, 0.1);
-  color: #e94e57;
+  background-color: rgba(125, 154, 80, 0.1);
+  color: #7d9a50;
 }
 
 .tabButton.active {
-  background-color: #fffdfc;
-  color: #e94e57;
+  background-color: #fff;
+  color: #7d9a50;
   font-weight: 600;
 }
 
@@ -73,7 +73,7 @@
   top: 0;
   height: 100%;
   width: 4px;
-  background-color: #e94e57;
+  background-color: #e29578;
 }
 
 .tabContent {
@@ -89,11 +89,11 @@
 .experienceHeader h3 {
   font-size: 1.5rem;
   margin-bottom: 0.5rem;
-  color: #2c2c2c;
+  color: #7d9a50;
 }
 
 .company {
-  color: #e94e57;
+  color: #e29578;
 }
 
 .period {
@@ -118,7 +118,7 @@
   content: '▹';
   position: absolute;
   left: 0;
-  color: #e94e57;
+  color: #e29578;
 }
 
 @media (max-width: 768px) {

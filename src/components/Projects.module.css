@@ -1,6 +1,6 @@
 .projects {
   padding: 6rem 2rem;
-  background-color: #fffdfc;
+  background-color: #fef6e4;
 }
 
 .container {
@@ -13,7 +13,7 @@
   font-size: 2.5rem;
   margin-bottom: 3rem;
   position: relative;
-  color: #e94e57;
+  color: #7d9a50;
 }
 
 .sectionTitle::after {
@@ -24,7 +24,7 @@
   transform: translateX(-50%);
   width: 80px;
   height: 4px;
-  background: linear-gradient(to right, #e94e57, #f4c95d);
+  background: linear-gradient(to right, #7d9a50, #e29578);
 }
 
 .projectsGrid {
@@ -35,7 +35,7 @@
 }
 
 .projectCard {
-  background-color: #fdf8f8;
+  background-color: #fff8f0;
   border-radius: 8px;
   padding: 1.5rem;
   box-shadow: 0 5px 15px rgba(0,0,0,0.05);
@@ -53,7 +53,7 @@
 .projectCard h3 {
   font-size: 1.5rem;
   margin-bottom: 1rem;
-  color: #2c2c2c;
+  color: #7d9a50;
 }
 
 .projectCard p {
@@ -71,8 +71,8 @@
 }
 
 .skill {
-  background-color: #f4e5dc;
-  color: #2c2c2c;
+  background-color: #e8efe3;
+  color: #465a2d;
   padding: 0.3rem 0.8rem;
   border-radius: 20px;
   font-size: 0.8rem;
@@ -82,7 +82,7 @@
 .projectLink {
   display: inline-flex;
   align-items: center;
-  color: #e94e57;
+  color: #e29578;
   font-weight: 600;
   text-decoration: none;
   gap: 0.5rem;
@@ -102,17 +102,18 @@
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  color: #2c2c2c;
+  color: #7d9a50;
   font-weight: 600;
   text-decoration: none;
   padding: 0.8rem 2rem;
-  border: 2px solid #2c2c2c;
+  border: 2px solid #7d9a50;
   border-radius: 4px;
   transition: all 0.3s ease;
 }
 
 .moreProjects a:hover {
-  background-color: #f9e9e9;
+  background-color: #7d9a50;
+  color: white;
 }
 
 @media (max-width: 768px) {

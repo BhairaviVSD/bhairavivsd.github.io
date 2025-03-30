@@ -6,14 +6,13 @@
   z-index: 1000;
   padding: 1.5rem 2rem;
   transition: all 0.3s ease;
-  background-color: transparent;
 }
 
 .scrolled {
-  background-color: rgba(255, 240, 242, 0.9);
+  background-color: rgba(255, 250, 240, 0.95);
   backdrop-filter: blur(10px);
   padding: 1rem 2rem;
-  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.15);
 }
 
 .container {
@@ -27,13 +26,13 @@
 .logo {
   font-size: 2rem;
   font-weight: 700;
-  color: #e94e57;
+  color: #7d9a50;
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
 .logo:hover {
-  color: #f4c95d;
+  color: #e29578;
 }
 
 .navlinks {
@@ -44,7 +43,7 @@
 }
 
 .navlinks li a {
-  color: #2c2c2c;
+  color: #444;
   text-decoration: none;
   font-weight: 500;
   font-size: 1rem;
@@ -53,7 +52,7 @@
 }
 
 .navlinks li a:hover {
-  color: #e94e57;
+  color: #e29578;
 }
 
 .navlinks li a::after {
@@ -63,7 +62,7 @@
   height: 2px;
   bottom: -5px;
   left: 0;
-  background-color: #f4c95d;
+  background-color: #e29578;
   transition: width 0.3s ease;
 }
 
@@ -73,15 +72,15 @@
 
 .resumeBtn {
   padding: 0.6rem 1rem;
-  border: 1px solid #e94e57;
+  border: 1px solid #e29578;
   border-radius: 4px;
-  color: #e94e57 !important;
+  color: #e29578 !important;
   background-color: transparent;
   transition: all 0.3s ease;
 }
 
 .resumeBtn:hover {
-  background-color: rgba(233, 78, 87, 0.1);
+  background-color: rgba(226, 149, 120, 0.1);
 }
 
 .hamburger {
@@ -95,7 +94,7 @@
   height: 3px;
   margin: 5px auto;
   transition: all 0.3s ease;
-  background-color: #e94e57;
+  background-color: #7d9a50;
 }
 
 @media (max-width: 768px) {
@@ -104,17 +103,29 @@
     z-index: 101;
   }
 
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
   .navlinks {
     position: fixed;
     top: 0;
     right: -100%;
     flex-direction: column;
-    background-color: #fffdfc;
+    background-color: #fff8f0;
     width: 70%;
     height: 100vh;
     padding-top: 4rem;
     transition: 0.3s ease;
-    box-shadow: -10px 0 30px -15px rgba(0, 0, 0, 0.1);
+    box-shadow: -10px 0 30px -15px rgba(0, 0, 0, 0.2);
     z-index: 100;
   }
 
