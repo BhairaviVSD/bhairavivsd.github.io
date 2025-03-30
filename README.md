@@ -1,18 +1,15 @@
-```markdown
-# 💼 Bhairavi Sawantdesai – Developer Portfolio
 
-This is my personal portfolio website built using **React** and **Vite**. It showcases my work in software engineering, machine learning, embedded systems, and cloud-native development.
+# 💼 Bhairavi Sawantdesai – Portfolio
 
+Personal portfolio website built with **React** and **Vite**, highlighting my work in software engineering, AI/ML, embedded systems, and cloud-native development.
 
 ## 🚀 Tech Stack
 
-- **Frontend**: React, Vite
-- **Styling**: CSS Modules, Responsive Design
-- **Deployment**: GitHub Pages
-- **Analytics**: Google Analytics v4
-- **Icons**: Font Awesome
+- **Frontend**: React + Vite, CSS Modules  
+- **Features**: Responsive design, resume download, smooth scrolling, animations, contact form  
+- **Deployment**: GitHub Pages + Google Analytics
 
-## 📁 Folder Structure
+## 📁 Structure
 
 ```
 src/
@@ -30,35 +27,22 @@ src/
 └── index.css            # Global styles
 ```
 
-## 🛠 Features
-
-- ⚡ Built with React + Vite for fast dev and build times
-- 🎨 Responsive and mobile-first UI
-- 🌐 Custom domain support
-- 🧾 Downloadable resume
-- 📬 Contact form with mailto integration
-- 🎯 Smooth scrolling & animations
-- 📈 Visitor analytics using Google Analytics
-- 🧮 GitHub visitor counter (optional fallback using CountAPI)
-
 ## 🔧 Scripts
 
 ```bash
-npm install     # Install dependencies
-npm run dev     # Start development server
-npm run build   # Create production build
-npm run preview # Preview production build
+npm install     # Install deps
+npm run dev     # Dev server
+npm run build   # Build for production
+npm run preview # Preview build
 ```
 
-## 📦 Deployment
+## 📦 Deploying
 
-Deployed via **GitHub Pages** using the `vite.config.js` base path and GitHub Actions.
-
-Make sure to update `vite.config.js`:
+Update `vite.config.js`:
 
 ```js
 export default defineConfig({
-  base: '/<your-repo-name>/', // example: '/bhairavivsd.github.io/'
+  base: '/bhairavivsd.github.io/',
   plugins: [react()],
 });
 ```
@@ -72,6 +56,6 @@ npx gh-pages -d dist
 
 ## 📬 Contact
 
-- 📧 bhairavi.s@nyu.edu
-- 🌐 [LinkedIn](https://linkedin.com/in/bhairavi-sawantdesai)
+- 📧 bhairavi.s@nyu.edu  
+- 🌐 [LinkedIn](https://linkedin.com/in/bhairavi-sawantdesai)  
 - 💻 [GitHub](https://github.com/BhairaviVSD)
