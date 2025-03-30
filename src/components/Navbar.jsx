@@ -41,7 +41,7 @@ const Navbar = () => {
           <li><a href="#contact" onClick={closeMobileMenu}>Contact</a></li>
           <li>
             <a 
-              href="/resume.pdf" 
+              href="/resume.pdf"
               className={styles.resumeBtn} 
               target="_blank" 
               rel="noopener noreferrer"

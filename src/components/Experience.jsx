@@ -7,31 +7,32 @@ const Experience = () => {
   const experiences = [
     {
       company: "New York University",
-      title: "Recitation Leader & Mentor",
-      period: "Sep 2024 – Present",
-      description: [
-        "Led weekly recitations for Computer Systems Organization, increasing student engagement and performance.",
-        "Mentored high school students through the IDEAS Maker Club, assisting with STEAM projects and college planning."
-      ]
-    },
-    {
-      company: "New York University",
       title: "Graduate Research Assistant",
       period: "Aug 2024 – Dec 2024",
       description: [
-        "Enhanced business cycle detection models, improving recession prediction accuracy by 20%.",
-        "Designed ML models that reduced economic forecasting errors by 15% with <2s latency."
+        "Designed a recession forecasting system using time-series anomaly detection and econometric models on 1.2M+ economic indicators, boosting predictive accuracy by 15%.",
+        "Enhanced early warning capabilities for researchers by uncovering macroeconomic regime shifts, reducing detection latency by 30%.",
+        "Built a real-time pipeline with Apache Spark and AWS Lambda, enabling sub-2s updates to dashboards and speeding up ML model iteration by 20%."
       ]
     },
     {
       company: "Accenture",
-      title: "Analyst, Associate",
+      title: "Software Engineer 2",
       period: "Jun 2021 – Jul 2023",
       description: [
-        "Built and deployed scalable Veeva CRM solutions for a biopharma client processing 1.5M records in 10s.",
-        "Developed 20+ responsive React.js components with Java Spring Boot & MongoDB, cutting UI load times by 40%.",
-        "Migrated monolith to microservices using Docker & Kubernetes, reducing deployment time by 50%.",
-        "Implemented CI/CD pipeline with Jenkins and Ansible, automating 90% of deployments and shortening releases to 5 days."
+        "Engineered a serverless backend using AWS Lambda, S3, and DynamoDB that cut compute costs by 40% and improved internal processing efficiency.",
+        "Developed a Vue.js + GraphQL dashboard accessed by 30K+ users; API optimization and state management reduced load time by 40%.",
+        "Deployed microservices on Kubernetes to handle 10M+ transactions/day, improving service reliability and halving deployment time.",
+        "Led the frontend development of 20+ modular React components and automated CI/CD using Jenkins and Docker, reducing release cycles from 4 weeks to 5 days."
+      ]
+    },
+    {
+      company: "New York University",
+      title: "Recitation Leader & Mentor",
+      period: "Sep 2024 – Present",
+      description: [
+        "Led recitations for Computer Systems Organization, improving participation and performance among 60+ students.",
+        "Mentored NYC high school students through the IDEAS Maker Club, helping them build STEAM projects and navigate college pathways."
       ]
     },
     {
@@ -39,8 +40,8 @@ const Experience = () => {
       title: "Intern – Data & Marketing",
       period: "May 2020 – Jun 2020",
       description: [
-        "Analyzed 100K+ customer interactions using R for sales strategy optimization.",
-        "Led customer segmentation and predictive modeling to increase marketing reach by 20,000 customers."
+        "Processed 100K+ customer records using R to derive insights for campaign optimization, boosting engagement by 15%.",
+        "Implemented segmentation and predictive models, expanding outreach to 20K new customers."
       ]
     },
     {
@@ -48,8 +49,8 @@ const Experience = () => {
       title: "Java Developer Intern",
       period: "May 2020 – Jun 2020",
       description: [
-        "Built a banking portal in JSP/MySQL serving 500+ users with secure CRUD operations.",
-        "Achieved 90%+ test coverage with JUnit and Mockito, reducing validation time by 25%."
+        "Built a secure JSP-based banking portal serving 500+ users with seamless CRUD operations and MySQL integration.",
+        "Achieved 90%+ JUnit test coverage with Mockito, reducing testing time by 25% and ensuring release stability."
       ]
     },
     {
@@ -57,8 +58,8 @@ const Experience = () => {
       title: "Equity Markets Analyst Intern",
       period: "Jul 2020 – Sep 2020",
       description: [
-        "Built real-time simulated portfolios and analyzed BSE500 stocks through FMEP.",
-        "Performed in-depth equity research to support trading decisions and investment hypotheses."
+        "Simulated stock portfolios in real-time using BSE500 stocks under FMEP; leveraged historical and real-time data for performance analysis.",
+        "Conducted technical and fundamental research, informing trading hypotheses with actionable insights."
       ]
     },
     {
@@ -66,9 +67,9 @@ const Experience = () => {
       title: "Treasurer & ED Director",
       period: "Mar 2020 – May 2023",
       description: [
-        "Led 40+ social cause events; boosted attendance by 200+ and digital engagement by 500+ interactions.",
-        "Created content using Canva & Adobe Suite; raised awareness for leprosy homes and supported 700+ sanitation workers.",
-        "Spearheaded 15+ resume workshops helping 30+ members land jobs; improved satisfaction by 15 points."
+        "Led 40+ community impact events, raising awareness and driving attendance of 200+ per event through strategic content marketing.",
+        "Created promotional materials using Canva and Adobe Suite; mobilized resources to support sanitation workers and leprosy home residents.",
+        "Ran 15+ career development workshops, resulting in 30+ members securing internships and full-time roles."
       ]
     },
     {
@@ -76,20 +77,21 @@ const Experience = () => {
       title: "Course Assistant – Microprocessors",
       period: "Jul 2019 – Dec 2019",
       description: [
-        "Graded assignments for 80+ students; developed digital repository to improve access and scores.",
-        "Improved student feedback and course efficiency through better logistics and communication."
+        "Graded coursework and exams for 80+ students; established a digital repository to improve learning access and support exam preparation.",
+        "Streamlined communication and logistics, increasing student satisfaction and performance."
       ]
     },
     {
       company: "Mumbai University",
-      title: "Coordinator – ISA",
+      title: "Coordinator – International Society of Automation",
       period: "Aug 2018 – May 2019",
       description: [
-        "Organized 20+ technical bootcamps and workshops; boosted participation by 150 attendees.",
-        "Provided on-ground technical support, ensuring smooth execution of all events."
+        "Organized 20+ technical events including bootcamps and workshops, increasing student participation by 150%.",
+        "Provided on-ground tech support for all events, ensuring smooth setup and execution."
       ]
     }
   ];
+  
 
   return (
     <section id="experience" className={styles.experience}>

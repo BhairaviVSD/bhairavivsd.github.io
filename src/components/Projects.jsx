@@ -5,13 +5,13 @@ const Projects = () => {
   const projects = [
     {
       title: 'Vision-Language System for Medical Image Analysis',
-      description: 'Built a multimodal framework to jointly analyze chest X-rays and associated radiology reports using vision-language models. Enabled efficient medical diagnosis insights through feature fusion.',
-      skills: ['PyTorch', 'CLIP', 'Radiology Reports', 'ChestX-ray'],
+      description: 'Developed a CLIP-based multimodal system to interpret chest X-rays with radiology reports on MIMIC-CXR. Boosted diagnostic insight through joint vision-language embeddings and feature fusion.',
+      skills: ['Computer Vision', 'PyTorch', 'CLIP', 'Radiology Reports', 'ChestX-ray'],
       link: 'https://github.com/BhairaviVSD/Vision-Language-System-for-Analysis-of-Medical-Images'
     },
     {
       title: 'CineMatch',
-      description: 'Movie recommender using ALS and MinHash segmentation on MovieLens. Achieved precision@k of 0.9578 and Jaccard similarity of 0.95.',
+      description: 'Collaborative filtering system using ALS and MinHash segmentation on MovieLens. Achieved 0.9578 precision and 0.95 Jaccard similarity across 86K+ movies and 33M+ ratings.',
       skills: ['Spark ML', 'ALS', 'Big Data'],
       link: 'https://github.com/BhairaviVSD/CineMatch'
     },
