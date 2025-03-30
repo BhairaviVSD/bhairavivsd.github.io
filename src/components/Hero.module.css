@@ -110,3 +110,41 @@
   color: #ef476f;
   transform: translateY(-3px);
 }
+@media (max-width: 768px) {
+  .hero {
+    padding: 3rem 1.5rem;
+    min-height: auto;
+  }
+
+  .fullName {
+    font-size: 2.4rem;
+    line-height: 1.2;
+    word-break: break-word;
+  }
+
+  .title {
+    font-size: 1.3rem;
+  }
+
+  .description {
+    font-size: 1rem;
+    line-height: 1.5;
+    padding: 0 0.5rem;
+  }
+
+  .cta {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .primaryBtn,
+  .secondaryBtn {
+    width: 100%;
+    max-width: 280px;
+  }
+
+  .socialIcons {
+    gap: 1rem;
+  }
+}
