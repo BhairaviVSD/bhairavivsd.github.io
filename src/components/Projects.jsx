@@ -10,28 +10,10 @@ const Projects = () => {
       link: 'https://github.com/BhairaviVSD/Vision-Language-System-for-Analysis-of-Medical-Images'
     },
     {
-      title: 'GPT Chronicles',
-      description: 'Trained GPT models to emulate distinct authors (Shakespeare, Holmes, Dickinson) using prompt engineering and finetuning. Achieved high coherence and minimal plagiarism in generated text.',
-      skills: ['GPT-2', 'Prompt Engineering', 'NLP', 'Text Generation'],
-      link: 'https://github.com/BhairaviVSD/GPT-Chronicles'
-    },
-    {
-      title: 'LLM Compression',
-      description: 'Implemented quantization with kurtosis regularization to compress large language models (LLMs) 4x with minimal accuracy loss. Validated on BERT with Cornell Movie Dialogs dataset.',
-      skills: ['Quantization', 'BERT', 'Kurtosis Regularization', 'Transformers'],
-      link: 'https://github.com/BhairaviVSD/LLM-Compression'
-    },
-    {
-      title: 'The Embedded Gyrometer',
-      description: 'Built a wearable gyroscope-powered speedometer using STM32 and L3GD20. Achieved 9% error margin without GPS and demonstrated 3-axis angular velocity measurement.',
-      skills: ['STM32', 'Embedded C', 'Sensor Fusion', 'Signal Filtering'],
-      link: 'https://github.com/BhairaviVSD/The-Embedded-Gyrometer'
-    },
-    {
-      title: 'RISC-V Simulator',
-      description: 'Developed cycle-accurate single and 5-stage pipelined RISC-V simulators. Integrated hazard handling, branch prediction, and improved IPC by 3x.',
-      skills: ['Python', 'RISC-V', 'Computer Architecture', 'Pipelining'],
-      link: 'https://github.com/BhairaviVSD/RISC-V-Simulator'
+      title: 'CineMatch',
+      description: 'Movie recommender using ALS and MinHash segmentation on MovieLens. Achieved precision@k of 0.9578 and Jaccard similarity of 0.95.',
+      skills: ['Spark ML', 'ALS', 'Big Data'],
+      link: 'https://github.com/BhairaviVSD/CineMatch'
     },
     {
       title: 'StoryCrafter',
@@ -46,10 +28,22 @@ const Projects = () => {
       link: 'https://github.com/BhairaviVSD/RAG-Powered-Summarizer'
     },
     {
-      title: 'CineMatch',
-      description: 'Movie recommender using ALS and MinHash segmentation on MovieLens. Achieved precision@k of 0.9578 and Jaccard similarity of 0.95.',
-      skills: ['Spark ML', 'ALS', 'Big Data'],
-      link: 'https://github.com/BhairaviVSD/CineMatch'
+      title: 'The Embedded Gyrometer',
+      description: 'Built a wearable gyroscope-powered speedometer using STM32 and L3GD20. Achieved 9% error margin without GPS and demonstrated 3-axis angular velocity measurement.',
+      skills: ['STM32', 'Embedded C', 'Sensor Fusion', 'Signal Filtering'],
+      link: 'https://github.com/BhairaviVSD/The-Embedded-Gyrometer'
+    },
+    {
+      title: 'RISC-V Simulator',
+      description: 'Developed cycle-accurate single and 5-stage pipelined RISC-V simulators. Integrated hazard handling, branch prediction, and improved IPC by 3x.',
+      skills: ['Python', 'RISC-V', 'Computer Architecture', 'Pipelining'],
+      link: 'https://github.com/BhairaviVSD/-RISC-V-Simulator'
+    },
+    {
+      title: 'GPT Chronicles',
+      description: 'Trained GPT models to emulate distinct authors (Shakespeare, Holmes, Dickinson) using prompt engineering and finetuning. Achieved high coherence and minimal plagiarism in generated text.',
+      skills: ['GPT-2', 'Prompt Engineering', 'NLP', 'Text Generation'],
+      link: 'https://github.com/BhairaviVSD/GPT-Chronicles'
     },
     {
       title: 'FoodForThought',
