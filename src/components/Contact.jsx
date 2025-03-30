@@ -18,7 +18,7 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    window.location.href = `mailto:bvs9764@nyu.edu?subject=Contact from ${formState.name}&body=${formState.message}`;
+    window.location.href = `mailto:bhairavi.s@nyu.edu?subject=Contact from ${formState.name}&body=${formState.message}`;
     
     setFormState({
       name: '',

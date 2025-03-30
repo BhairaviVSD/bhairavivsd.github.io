@@ -25,8 +25,8 @@ const Footer = () => {
             <div className={styles.linkGroup}>
               <h3>Projects</h3>
               <ul>
-                <li><a href="#projects">FoodForThought</a></li>
                 <li><a href="#projects">RAG Summarizer</a></li>
+                <li><a href="#projects">Vision-Language System for Medical Image Analysis</a></li>
                 <li><a href="#projects">CineMatch</a></li>
                 <li><a href="#projects">StoryCrafter</a></li>
                 <li><a href="#projects">TaskManager</a></li>
@@ -36,7 +36,7 @@ const Footer = () => {
             <div className={styles.linkGroup}>
               <h3>Connect</h3>
               <ul>
-                <li><a href="mailto:bvs9764@nyu.edu">Email</a></li>
+                <li><a href="mailto:bhairavi.s@nyu.edu">Email</a></li>
                 <li><a href="https://github.com/BhairaviVSD" target="_blank" rel="noopener noreferrer">GitHub</a></li>
                 <li><a href="https://linkedin.com/in/bhairavi-sawantdesai" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
               </ul>
