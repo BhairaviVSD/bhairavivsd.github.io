@@ -17,11 +17,9 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // In a real app, you would send the form data to a backend
-    // For now, just open the mail client
+
     window.location.href = `mailto:bvs9764@nyu.edu?subject=Contact from ${formState.name}&body=${formState.message}`;
     
-    // Reset form
     setFormState({
       name: '',
       email: '',
@@ -83,7 +81,7 @@ const Contact = () => {
         <div className={styles.contactInfo}>
           <div className={styles.contactItem}>
             <i className="fas fa-envelope"></i>
-            <a href="mailto:bvs9764@nyu.edu">bvs9764@nyu.edu</a>
+            <a href="mailto:bvs9764@nyu.edu">bhairavi.s@nyu.edu</a>
           </div>
           <div className={styles.contactItem}>
             <i className="fas fa-phone"></i>

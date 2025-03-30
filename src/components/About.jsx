@@ -10,48 +10,54 @@ const About = () => {
         <div className={styles.content}>
           <div className={styles.aboutText}>
             <p>
-              I'm a Computer Engineering MS student at New York University with a passion for building innovative solutions 
-              at the intersection of software engineering, embedded systems, and machine learning.
+              I'm Bhairavi Sawantdesai, currently pursuing my Master’s in Computer Engineering at NYU with a CGPA of 3.72. I bring over two years of industry experience at Accenture, where I led CRM deployments, microservice migrations, and cloud-native development across cross-functional teams.
             </p>
             <p>
-              With professional experience as a Software Engineering Analyst at Accenture, I've engineered 
-              Salesforce Veeva CRM solutions, delivered high-impact React components, and led web content 
-              management initiatives that significantly improved user experiences and business outcomes.
+              I’ve built robust systems at scale, whether it’s React + Spring Boot frontends, Dockerized services on Kubernetes, or AI pipelines for business forecasting. My work spans CRM engineering, ML model optimization, embedded prototyping, and full-stack web apps.
             </p>
             <p>
-              My technical journey spans frontend and backend development, cloud infrastructure, and embedded systems.
-              I thrive on challenges that combine hardware and software to create meaningful solutions.
+              At NYU, I’m involved in teaching, mentoring, and research — improving recession prediction accuracy and mentoring future makers through the IDEAS Maker Club. I love building systems that are fast, scalable, and meaningful.
             </p>
           </div>
           
           <div className={styles.skills}>
             <div className={styles.skillCategory}>
-              <h3>Software Development</h3>
+              <h3>Software & Web Development</h3>
               <ul>
-                <li>Java, Python, C/C++, JavaScript</li>
-                <li>React, Spring, Node.js, Express</li>
-                <li>SQL, MongoDB, Cassandra, Hadoop</li>
-                <li>CI/CD, Git, Jenkins, Maven</li>
+                <li>Java, Python, C/C++, TypeScript, Go</li>
+                <li>React, Node.js, Express, Vue.js, Angular</li>
+                <li>PostgreSQL, MySQL, MongoDB, Redis</li>
+                <li>GraphQL, REST APIs, OAuth 2.0, JWT</li>
+              </ul>
+            </div>
+
+            <div className={styles.skillCategory}>
+              <h3>Embedded Systems & Hardware</h3>
+              <ul>
+                <li>Arduino, Raspberry Pi, ARM Cortex-A72, STM32</li>
+                <li>Verilog, VHDL, TASM, Assembly</li>
+                <li>SPI, I2C, UART, Sensors & Actuators</li>
+                <li>Oscilloscope, Multimeter, Breadboarding</li>
               </ul>
             </div>
             
             <div className={styles.skillCategory}>
-              <h3>Embedded Systems</h3>
+              <h3>DevOps & Cloud</h3>
               <ul>
-                <li>Arduino, Raspberry Pi, ARM Cortex</li>
-                <li>Verilog, VHDL</li>
-                <li>SPI, I2C, UART protocols</li>
-                <li>Electronics Prototyping</li>
+                <li>AWS, GCP, Azure</li>
+                <li>Docker, Kubernetes, Jenkins, CircleCI</li>
+                <li>Terraform, Ansible, Prometheus, Grafana</li>
+                <li>CI/CD Pipelines, Microservices</li>
               </ul>
             </div>
             
             <div className={styles.skillCategory}>
-              <h3>AI/ML</h3>
+              <h3>Machine Learning & Data</h3>
               <ul>
-                <li>TensorFlow, PyTorch, Keras</li>
-                <li>Computer Vision, OpenCV</li>
-                <li>Deep Learning</li>
-                <li>Model Optimization</li>
+                <li>TensorFlow, PyTorch, Scikit-learn</li>
+                <li>Kafka, Apache Spark, Hadoop</li>
+                <li>ELK Stack, NLP, Model Optimization</li>
+                <li>Big Data Pipelines, Custom LLMs</li>
               </ul>
             </div>
           </div>
@@ -72,12 +78,12 @@ const About = () => {
           
           <div className={styles.educationItem}>
             <div className={styles.degree}>
-              <h4>Bachelor of Engineering in Electronics and Telecommunications</h4>
+              <h4>Bachelor of Engineering in Electronics & Telecommunication</h4>
               <p>University of Mumbai, India</p>
             </div>
             <div className={styles.eduDetails}>
               <p>Aug 2017 – Jun 2021</p>
-              <p className={styles.gpa}>CGPA: 3.64/4</p>
+              <p className={styles.gpa}>CGPA: 3.89/4</p>
             </div>
           </div>
         </div>

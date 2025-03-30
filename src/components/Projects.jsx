@@ -4,40 +4,64 @@ import styles from './Projects.module.css';
 const Projects = () => {
   const projects = [
     {
-      title: "FoodForThought",
-      description: "Enhanced food classification deep learning model with cloud-based Kubernetes deployment. Improved model accuracy from 76% to 89% and reduced transaction latency from 400ms to 239ms.",
-      skills: ["TensorFlow", "Kubernetes", "CNNs", "Cloud Infrastructure", "Transfer Learning"],
-      link: "https://github.com/BhairaviVSD/FoodForThought"
+      title: 'Vision-Language System for Medical Image Analysis',
+      description: 'Built a multimodal framework to jointly analyze chest X-rays and associated radiology reports using vision-language models. Enabled efficient medical diagnosis insights through feature fusion.',
+      skills: ['PyTorch', 'CLIP', 'Radiology Reports', 'ChestX-ray'],
+      link: 'https://github.com/BhairaviVSD/Vision-Language-System-for-Analysis-of-Medical-Images'
     },
     {
-      title: "Socially Apart",
-      description: "IoT + ML device using ARM Cortex-A72 processor to detect social distancing violations and improper mask usage. National Innovation Contest 2020 qualifier and published paper in ICESC 2021.",
-      skills: ["Computer Vision", "IoT", "ARM", "YOLOv3", "Embedded Systems"],
-      link: "https://github.com/BhairaviVSD/SociallyApart"
+      title: 'GPT Chronicles',
+      description: 'Trained GPT models to emulate distinct authors (Shakespeare, Holmes, Dickinson) using prompt engineering and finetuning. Achieved high coherence and minimal plagiarism in generated text.',
+      skills: ['GPT-2', 'Prompt Engineering', 'NLP', 'Text Generation'],
+      link: 'https://github.com/BhairaviVSD/GPT-Chronicles'
     },
     {
-      title: "LLM Compression via Quantization",
-      description: "Developed quantization-based compression for LLMs with kurtosis regularization, achieving 4x compression with minimal accuracy loss on BERT for sentiment analysis.",
-      skills: ["NLP", "Model Compression", "Quantization", "BERT", "Regularization"],
-      link: "https://github.com/BhairaviVSD/LLMCompression"
+      title: 'LLM Compression',
+      description: 'Implemented quantization with kurtosis regularization to compress large language models (LLMs) 4x with minimal accuracy loss. Validated on BERT with Cornell Movie Dialogs dataset.',
+      skills: ['Quantization', 'BERT', 'Kurtosis Regularization', 'Transformers'],
+      link: 'https://github.com/BhairaviVSD/LLM-Compression'
     },
     {
-      title: "CineMatch",
-      description: "Movie recommendation engine using MinHash segmentation and ALS collaborative filtering on MovieLens dataset. Achieved ALS MAP of 0.9378 and precision at K of 0.9578.",
-      skills: ["Collaborative Filtering", "MinHash", "Big Data", "Recommendation Systems"],
-      link: "https://github.com/BhairaviVSD/CineMatch"
+      title: 'The Embedded Gyrometer',
+      description: 'Built a wearable gyroscope-powered speedometer using STM32 and L3GD20. Achieved 9% error margin without GPS and demonstrated 3-axis angular velocity measurement.',
+      skills: ['STM32', 'Embedded C', 'Sensor Fusion', 'Signal Filtering'],
+      link: 'https://github.com/BhairaviVSD/The-Embedded-Gyrometer'
     },
     {
-      title: "RISC-V Simulator",
-      description: "Cycle-accurate RISC-V processor simulators in Python modeling single-stage and 5-stage pipelined implementations. Implemented branch prediction for 3x higher instructions per cycle.",
-      skills: ["Computer Architecture", "Python", "Pipeline Design", "Branch Prediction"],
-      link: "https://github.com/BhairaviVSD/RISCV-Simulator"
+      title: 'RISC-V Simulator',
+      description: 'Developed cycle-accurate single and 5-stage pipelined RISC-V simulators. Integrated hazard handling, branch prediction, and improved IPC by 3x.',
+      skills: ['Python', 'RISC-V', 'Computer Architecture', 'Pipelining'],
+      link: 'https://github.com/BhairaviVSD/RISC-V-Simulator'
     },
     {
-      title: "GPT Chronicles",
-      description: "Style-specific GPT models trained for creative writing that emulate authors like Shakespeare and Dickinson, achieving high coherence scores and originality in generated text.",
-      skills: ["NLP", "Text Generation", "Fine-tuning", "Literary Analysis"],
-      link: "https://github.com/BhairaviVSD/GPT-Chronicles"
+      title: 'StoryCrafter',
+      description: 'AI-powered storytelling app using AWS Rekognition for image analysis and GPT for story generation. Hosted on AWS EC2, backed by DynamoDB, Lambda, and Cognito.',
+      skills: ['AWS Rekognition', 'OpenAI GPT', 'AWS Lambda', 'EC2'],
+      link: 'https://github.com/BhairaviVSD/StoryCrafter'
+    },
+    {
+      title: 'RAG Text Summarizer',
+      description: 'Built a RAG-based summarizer combining Next.js and Flask using the distilbart-cnn-12-6 model. Supports fast summarization for long documents.',
+      skills: ['Next.js', 'Flask', 'RAG', 'Transformers'],
+      link: 'https://github.com/BhairaviVSD/RAG-Powered-Summarizer'
+    },
+    {
+      title: 'CineMatch',
+      description: 'Movie recommender using ALS and MinHash segmentation on MovieLens. Achieved precision@k of 0.9578 and Jaccard similarity of 0.95.',
+      skills: ['Spark ML', 'ALS', 'Big Data'],
+      link: 'https://github.com/BhairaviVSD/CineMatch'
+    },
+    {
+      title: 'FoodForThought',
+      description: 'Optimized CNN food classification model for Kubernetes deployment. Boosted accuracy from 76% to 89% and reduced inference latency to 239ms.',
+      skills: ['TensorFlow', 'CNN', 'Kubernetes', 'CloudLab'],
+      link: 'https://github.com/BhairaviVSD/FoodForThought'
+    },
+    {
+      title: 'TaskManager',
+      description: 'Spring Boot-based task manager with secure login, H2 database, and user-specific dashboards. Achieved 35% API latency reduction with caching.',
+      skills: ['Java', 'Spring Boot', 'JDBC', 'H2'],
+      link: 'https://github.com/BhairaviVSD/TaskManager'
     }
   ];
 
@@ -45,7 +69,6 @@ const Projects = () => {
     <section id="projects" className={styles.projects}>
       <div className={styles.container}>
         <h2 className={styles.sectionTitle}>Projects</h2>
-        
         <div className={styles.projectsGrid}>
           {projects.map((project, index) => (
             <div className={styles.projectCard} key={index}>
@@ -62,7 +85,6 @@ const Projects = () => {
             </div>
           ))}
         </div>
-        
         <div className={styles.moreProjects}>
           <a href="https://github.com/BhairaviVSD" target="_blank" rel="noopener noreferrer">
             See More Projects on GitHub <i className="fas fa-external-link-alt"></i>

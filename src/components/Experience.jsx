@@ -3,26 +3,44 @@ import styles from './Experience.module.css';
 
 const Experience = () => {
   const [activeTab, setActiveTab] = useState(0);
-  
+
   const experiences = [
     {
-      company: "Accenture",
-      title: "Custom Software Engineering Analyst",
-      period: "Sep 2022 – Jul 2023",
+      company: "NYU",
+      title: "Recitation Leader & Mentor",
+      period: "Sep 2024 – Present",
       description: [
-        "Engineered Salesforce Veeva CRM solution for a biopharmaceutical company boosting sales forecast accuracy by 30% and reducing sales cycle time by 20%.",
-        "Customized CRM user experience on MyInsights dashboard; visualized data for 30,000+ reps on Vue JS, improving data accessibility and analysis."
+        "Led weekly recitations for Computer Systems Organization, increasing student engagement and performance.",
+        "Mentored high school students through the IDEAS Maker Club, assisting with STEAM projects and college planning."
+      ]
+    },
+    {
+      company: "NYU",
+      title: "Graduate Research Assistant",
+      period: "Aug 2024 – Dec 2024",
+      description: [
+        "Enhanced business cycle detection models, improving recession prediction accuracy by 20%.",
+        "Designed ML models that reduced economic forecasting errors by 15% with <2s latency."
       ]
     },
     {
       company: "Accenture",
-      title: "Application Development Associate",
-      period: "Jun 2021 – Aug 2022",
+      title: "Analyst, Associate",
+      period: "Jun 2021 – Jul 2023",
       description: [
-        "Delivered features by deploying 10+ high-impact components and building/maintaining 20+ responsive React JS components for a leading telecommunications company across 5+ repositories.",
-        "Upgraded 10+ legacy components to a mono repo on bit.dev, and configured and integrated MuleSoft APIs with UI.",
-        "Headed web content management on 50+ components utilizing Adobe Experience Manager and Sanity.io, optimizing web content delivery and user experience.",
-        "Spearheaded employee training for 10+ recruits over the course of 4 months to reduce onboarding time."
+        "Built and deployed scalable Veeva CRM solutions for a biopharma client processing 1.5M records in 10s.",
+        "Developed 20+ responsive React.js components with Java Spring Boot & MongoDB, cutting UI load times by 40%.",
+        "Migrated monolith to microservices using Docker & Kubernetes, reducing deployment time by 50%.",
+        "Implemented CI/CD pipeline with Jenkins and Ansible, automating 90% of deployments and shortening releases to 5 days."
+      ]
+    },
+    {
+      company: "Bennett Coleman & Co. Ltd.",
+      title: "Intern – Data & Marketing",
+      period: "May 2020 – Jun 2020",
+      description: [
+        "Analyzed 100K+ customer interactions using R for sales strategy optimization.",
+        "Led customer segmentation and predictive modeling to increase marketing reach by 20,000 customers."
       ]
     },
     {
@@ -30,27 +48,45 @@ const Experience = () => {
       title: "Java Developer Intern",
       period: "May 2020 – Jun 2020",
       description: [
-        "Architected a web application based banking portal using HTML, CSS, Bootstrap, JSP, and MySQL to facilitate streamlined services for 500+ users.",
-        "Implemented CRUD operations ensuring a 99.99% success rate for user transactions while maintaining the highest level of security for sensitive financial data.",
-        "Developed and implemented 100+ Junit test cases using Mockito, resulting in over 90% testing coverage and a 25% reduction in the time required for pre-commerce validation on a Spring Microservices platform."
+        "Built a banking portal in JSP/MySQL serving 500+ users with secure CRUD operations.",
+        "Achieved 90%+ test coverage with JUnit and Mockito, reducing validation time by 25%."
+      ]
+    },
+    {
+      company: "Finlatics",
+      title: "Equity Markets Analyst Intern",
+      period: "Jul 2020 – Sep 2020",
+      description: [
+        "Built real-time simulated portfolios and analyzed BSE500 stocks through FMEP.",
+        "Performed in-depth equity research to support trading decisions and investment hypotheses."
       ]
     },
     {
       company: "Rotaract Club of Thane",
-      title: "Treasurer, ED Director",
+      title: "Treasurer & ED Director",
       period: "Mar 2020 – May 2023",
       description: [
-        "Facilitated multiple successful events, showcasing proficiency in time management and coordination.",
-        "Spearheaded the use of digital marketing tools, including Canva, Adobe CS6 and Final Cut, to create engaging promotional content for over 40 social causes."
+        "Led 40+ social cause events; boosted attendance by 200+ and digital engagement by 500+ interactions.",
+        "Created content using Canva & Adobe Suite; raised awareness for leprosy homes and supported 700+ sanitation workers.",
+        "Spearheaded 15+ resume workshops helping 30+ members land jobs; improved satisfaction by 15 points."
       ]
     },
     {
       company: "Mumbai University",
-      title: "Team Lead - Socially Apart Project",
-      period: "Mar 2020 – May 2021",
+      title: "Course Assistant – Microprocessors",
+      period: "Jul 2019 – Dec 2019",
       description: [
-        "Led the development team in designing and developing an IoT device with an ARM Cortex-A72 processor to detect distancing violations and improper mask usage, effectively curbing the spread of COVID-19 in public spaces.",
-        "Played a pivotal role in the National Innovation Contest 2020, where our team's project, 'Socially Apart,' was recognized."
+        "Graded assignments for 80+ students; developed digital repository to improve access and scores.",
+        "Improved student feedback and course efficiency through better logistics and communication."
+      ]
+    },
+    {
+      company: "Mumbai University",
+      title: "Coordinator – ISA",
+      period: "Aug 2018 – May 2019",
+      description: [
+        "Organized 20+ technical bootcamps and workshops; boosted participation by 150 attendees.",
+        "Provided on-ground technical support, ensuring smooth execution of all events."
       ]
     }
   ];

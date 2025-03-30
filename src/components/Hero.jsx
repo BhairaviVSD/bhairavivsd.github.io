@@ -12,12 +12,12 @@ const Hero = () => {
     <section id="home" className={styles.hero}>
       <div className={`${styles.heroContent} ${isVisible ? styles.visible : ''}`}>
         <h1 className={styles.name}>
-          <span className={styles.greeting}>Hello, I'm</span>
+          <span className={styles.greeting}>Hi, I’m</span>
           <span className={styles.fullName}>Bhairavi Sawantdesai</span>
         </h1>
-        <h2 className={styles.title}>Software Engineer & AI Developer</h2>
+        <h2 className={styles.title}>Engineer | Researcher | Problem Solver</h2>
         <p className={styles.description}>
-          Building scalable systems and leveraging AI to solve real-world problems
+          NYU Computer Engineering grad student with experience at Accenture and deep interest in AI, systems, and data-driven solutions. From cloud-deployed ML models to embedded innovations, I build systems that scale and matter.
         </p>
         <div className={styles.cta}>
           <a href="#projects" className={styles.primaryBtn}>View Projects</a>
