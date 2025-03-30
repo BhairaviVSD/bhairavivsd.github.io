@@ -1,7 +1,6 @@
 .experience {
   padding: 6rem 2rem;
-  background-color: #fdfcfc;
-  color: #2b2b2b;
+  background-color: #fff3f3;
 }
 
 .container {
@@ -13,8 +12,8 @@
   text-align: center;
   font-size: 2.5rem;
   margin-bottom: 3rem;
-  color: #3d4f1e;
   position: relative;
+  color: #c1121f;
 }
 
 .sectionTitle::after {
@@ -25,23 +24,23 @@
   transform: translateX(-50%);
   width: 80px;
   height: 4px;
-  background: linear-gradient(to right, #e89595, #d2e38d);
+  background: linear-gradient(to right, #ef476f, #ffd166);
+  border-radius: 2px;
 }
 
 .tabsContainer {
   display: flex;
-  min-height: 400px;
+  min-height: 350px;
   border-radius: 8px;
-  box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
   overflow: hidden;
-  background-color: #fff;
 }
 
 .tabsList {
   display: flex;
   flex-direction: column;
   min-width: 220px;
-  background-color: #f0dada;
+  background-color: #fbe2e3;
 }
 
 .tabButton {
@@ -51,20 +50,20 @@
   text-align: left;
   font-size: 1rem;
   font-weight: 500;
-  color: #5b2c2c;
+  color: #6e6e6e;
   cursor: pointer;
   transition: all 0.3s ease;
   position: relative;
 }
 
 .tabButton:hover {
-  background-color: rgba(183, 32, 37, 0.1);
-  color: #b72025;
+  background-color: rgba(239, 71, 111, 0.1);
+  color: #c1121f;
 }
 
 .tabButton.active {
   background-color: #fff;
-  color: #3d4f1e;
+  color: #c1121f;
   font-weight: 600;
 }
 
@@ -75,7 +74,7 @@
   top: 0;
   height: 100%;
   width: 4px;
-  background-color: #b72025;
+  background-color: #ef476f;
 }
 
 .tabContent {
@@ -84,22 +83,23 @@
   background-color: #fff;
 }
 
+.experienceHeader {
+  margin-bottom: 1.5rem;
+}
+
 .experienceHeader h3 {
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   margin-bottom: 0.5rem;
-  color: #3d4f1e;
+  color: #2c2c2c;
 }
 
 .company {
-  color: #b72025;
-  font-weight: 500;
+  color: #ef476f;
 }
 
 .period {
-  color: #888;
+  color: #6c757d;
   font-style: italic;
-  font-size: 0.95rem;
-  margin-bottom: 1rem;
 }
 
 .responsibilities {
@@ -112,13 +112,14 @@
   padding-left: 1.5rem;
   position: relative;
   line-height: 1.6;
+  color: #444;
 }
 
 .responsibilities li::before {
   content: '▹';
   position: absolute;
   left: 0;
-  color: #b72025;
+  color: #ef476f;
 }
 
 @media (max-width: 768px) {

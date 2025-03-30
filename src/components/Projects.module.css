@@ -1,6 +1,6 @@
 .projects {
   padding: 6rem 2rem;
-  background-color: #fdfcfc;
+  background-color: #fdf8f8; /* light blush background */
 }
 
 .container {
@@ -13,7 +13,7 @@
   font-size: 2.5rem;
   margin-bottom: 3rem;
   position: relative;
-  color: #3d4f1e;
+  color: #2c2c2c;
 }
 
 .sectionTitle::after {
@@ -24,7 +24,7 @@
   transform: translateX(-50%);
   width: 80px;
   height: 4px;
-  background: linear-gradient(to right, #e07a7a, #d2e38d);
+  background: linear-gradient(to right, #ef476f, #ffd166);
 }
 
 .projectsGrid {
@@ -35,11 +35,10 @@
 }
 
 .projectCard {
-  background-color: #fff;
-  border: 1px solid #eee;
+  background-color: #ffffff;
   border-radius: 10px;
-  padding: 1.5rem;
-  box-shadow: 0 5px 20px rgba(0,0,0,0.04);
+  padding: 1.8rem;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.06);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   display: flex;
   flex-direction: column;
@@ -48,19 +47,19 @@
 
 .projectCard:hover {
   transform: translateY(-8px);
-  box-shadow: 0 15px 30px rgba(0,0,0,0.08);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
 }
 
 .projectCard h3 {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   margin-bottom: 1rem;
-  color: #b72025;
+  color: #2c2c2c;
 }
 
 .projectCard p {
   margin-bottom: 1.5rem;
   line-height: 1.6;
-  color: #555;
+  color: #444;
   flex-grow: 1;
 }
 
@@ -72,8 +71,8 @@
 }
 
 .skill {
-  background-color: #d2e38d;
-  color: #3d4f1e;
+  background-color: #f4e2e2;
+  color: #b21f1f;
   padding: 0.3rem 0.8rem;
   border-radius: 20px;
   font-size: 0.8rem;
@@ -83,7 +82,7 @@
 .projectLink {
   display: inline-flex;
   align-items: center;
-  color: #b72025;
+  color: #ef476f;
   font-weight: 600;
   text-decoration: none;
   gap: 0.5rem;
@@ -103,18 +102,18 @@
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  color: #3d4f1e;
+  color: #1a2a6c;
   font-weight: 600;
   text-decoration: none;
   padding: 0.8rem 2rem;
-  border: 2px solid #3d4f1e;
+  border: 2px solid #ef476f;
   border-radius: 4px;
   transition: all 0.3s ease;
 }
 
 .moreProjects a:hover {
-  background-color: #3d4f1e;
-  color: white;
+  background-color: #ffe6eb;
+  color: #ef476f;
 }
 
 @media (max-width: 768px) {

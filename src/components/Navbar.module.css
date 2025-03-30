@@ -4,10 +4,15 @@
   left: 0;
   width: 100%;
   z-index: 1000;
-  padding: 1.2rem 2rem;
-  background-color: rgba(255, 255, 255, 0.92);
-  backdrop-filter: blur(10px);
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  padding: 1.5rem 2rem;
+  transition: all 0.3s ease;
+}
+
+.scrolled {
+  background-color: rgba(255, 240, 245, 0.95); /* light pastel backdrop */
+  backdrop-filter: blur(8px);
+  padding: 1rem 2rem;
+  box-shadow: 0 8px 24px -8px rgba(0, 0, 0, 0.1);
 }
 
 .container {
@@ -21,8 +26,13 @@
 .logo {
   font-size: 2rem;
   font-weight: 700;
-  color: #b72025;
+  color: #ef476f;
   text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.logo:hover {
+  color: #d62828;
 }
 
 .navlinks {
@@ -33,7 +43,7 @@
 }
 
 .navlinks li a {
-  color: #333;
+  color: #5e6472;
   text-decoration: none;
   font-weight: 500;
   font-size: 1rem;
@@ -42,7 +52,7 @@
 }
 
 .navlinks li a:hover {
-  color: #b72025;
+  color: #ef476f;
 }
 
 .navlinks li a::after {
@@ -52,7 +62,7 @@
   height: 2px;
   bottom: -5px;
   left: 0;
-  background-color: #b72025;
+  background-color: #ef476f;
   transition: width 0.3s ease;
 }
 
@@ -62,15 +72,17 @@
 
 .resumeBtn {
   padding: 0.6rem 1rem;
-  border: 1px solid #b72025;
+  border: 1.5px solid #ef476f;
   border-radius: 4px;
-  color: #b72025 !important;
+  color: #ef476f !important;
   background-color: transparent;
   transition: all 0.3s ease;
 }
 
 .resumeBtn:hover {
-  background-color: rgba(183, 32, 37, 0.05);
+  background-color: rgba(239, 71, 111, 0.1);
+  color: #d62828 !important;
+  border-color: #d62828;
 }
 
 .hamburger {
@@ -84,7 +96,7 @@
   height: 3px;
   margin: 5px auto;
   transition: all 0.3s ease;
-  background-color: #b72025;
+  background-color: #ef476f;
 }
 
 @media (max-width: 768px) {
@@ -93,13 +105,25 @@
     z-index: 101;
   }
 
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
   .navlinks {
     position: fixed;
     top: 0;
     right: -100%;
     flex-direction: column;
-    background-color: #fefefe;
-    width: 75%;
+    background-color: #ffe9ec;
+    width: 70%;
     height: 100vh;
     padding-top: 4rem;
     transition: 0.3s ease;
@@ -113,5 +137,17 @@
 
   .navlinks li {
     margin: 1.5rem 0;
+  }
+
+  .bar.active:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .bar.active:nth-child(2) {
+    opacity: 0;
+  }
+
+  .bar.active:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
   }
 }

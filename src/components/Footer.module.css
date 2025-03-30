@@ -1,8 +1,7 @@
 .footer {
-  background-color: #fafafa;
-  color: #444;
+  background-color: #fdf3f4;
+  color: #6e6e6e;
   padding: 4rem 2rem 2rem;
-  font-family: 'Inter', sans-serif;
 }
 
 .container {
@@ -18,9 +17,9 @@
 }
 
 .logo {
-  font-size: 2.2rem;
+  font-size: 2.5rem;
   font-weight: 700;
-  color: #3d4f1e;
+  color: #ef476f;
   margin-bottom: 1.5rem;
 }
 
@@ -31,7 +30,7 @@
 }
 
 .linkGroup h3 {
-  color: #b72025;
+  color: #2c2c2c;
   font-size: 1.1rem;
   margin-bottom: 1rem;
   position: relative;
@@ -44,7 +43,7 @@
   left: 0;
   width: 30px;
   height: 2px;
-  background-color: #d2e38d;
+  background-color: #ef476f;
 }
 
 .linkGroup ul {
@@ -57,19 +56,19 @@
 }
 
 .linkGroup a {
-  color: #444;
+  color: #6e6e6e;
   text-decoration: none;
   transition: color 0.3s ease;
   font-size: 0.9rem;
 }
 
 .linkGroup a:hover {
-  color: #b72025;
+  color: #ef476f;
 }
 
 .bottom {
   padding-top: 2rem;
-  border-top: 1px solid #ddd;
+  border-top: 1px solid #ffe6eb;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -77,14 +76,12 @@
   gap: 1rem;
 }
 
-.copyright {
+.copyright, .credits {
   font-size: 0.9rem;
-  color: #666;
 }
 
 .credits {
-  font-size: 0.9rem;
-  color: #b72025;
+  color: #ef476f;
 }
 
 @media (max-width: 768px) {

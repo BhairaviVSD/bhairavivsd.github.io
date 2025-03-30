@@ -5,8 +5,8 @@ html {
 body {
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f5f3f4; /* subtle background for minimal aesthetic */
-  color: #2b2b2b;
+  background-color: #fefcfc; 
+  color: #333;
 }
 
 a {
@@ -14,14 +14,12 @@ a {
   text-decoration: none;
 }
 
-h1, h2, h3, h4 {
-  color: #3d4f1e; /* dark olive for headers */
-}
 
 @media (max-width: 768px) {
   h1 {
     font-size: 1.8rem;
   }
+
   p {
     font-size: 1rem;
   }

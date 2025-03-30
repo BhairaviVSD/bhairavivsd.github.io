@@ -1,5 +1,3 @@
-/* App.css */
-
 * {
   margin: 0;
   padding: 0;
@@ -12,20 +10,17 @@ html {
 
 body {
   font-family: 'Inter', sans-serif;
-  background-color: #f5f3f4; /* soft off-white background */
-  color: #333; /* general text color */
+  background-color: #fefcfc; 
+  color: #2c2c2c;
   line-height: 1.6;
   overflow-x: hidden;
 }
 
-/* Optional section spacing */
+
 section {
   padding: 4rem 1rem;
-  background-color: #ffffff;
-  color: #1a1a1a;
 }
 
-/* Anchor smooth scroll fix on iOS */
 a {
   text-decoration: none;
   color: inherit;
@@ -42,33 +37,4 @@ button {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 1rem;
-}
-
-/* Color utility classes */
-.bg-blush {
-  background-color: #e89595;
-}
-
-.bg-red {
-  background-color: #b72025;
-}
-
-.bg-green {
-  background-color: #d2e38d;
-}
-
-.bg-olive {
-  background-color: #3d4f1e;
-}
-
-.text-pink {
-  color: #e89595;
-}
-
-.text-red {
-  color: #b72025;
-}
-
-.text-green {
-  color: #b6cc5e;
 }
