@@ -1,6 +1,7 @@
 .about {
   padding: 6rem 2rem;
-  background-color: #f8f9fa;
+  background-color: #fdfcfc; /* soft off-white */
+  color: #2b2b2b;
 }
 
 .container {
@@ -13,7 +14,7 @@
   font-size: 2.5rem;
   margin-bottom: 3rem;
   position: relative;
-  color: #1a2a6c;
+  color: #3d4f1e; /* deep olive */
 }
 
 .sectionTitle::after {
@@ -24,18 +25,21 @@
   transform: translateX(-50%);
   width: 80px;
   height: 4px;
-  background: linear-gradient(to right, #1a2a6c, #b21f1f);
+  background: linear-gradient(to right, #e89595, #d2e38d); /* blush to pistachio */
 }
 
 .content {
   display: flex;
   justify-content: space-between;
+  gap: 2rem;
   margin-bottom: 3rem;
+  flex-wrap: wrap;
 }
 
 .aboutText {
   flex: 0 0 48%;
-  font-size: 1.1rem;
+  font-size: 1.05rem;
+  color: #444;
 }
 
 .aboutText p {
@@ -51,35 +55,34 @@
 }
 
 .skillCategory h3 {
-  font-size: 1.2rem;
-  margin-bottom: 0.5rem;
-  color: #1a2a6c;
-  font-weight: 700;
-  border-bottom: 1px solid #ddd;
-  padding-bottom: 0.3rem;
+  font-size: 1.1rem;
+  margin-bottom: 0.4rem;
+  color: #b72025;
+  border-bottom: 2px solid #f2dcdc;
+  padding-bottom: 0.2rem;
 }
 
 .skillCategory p {
   font-size: 0.95rem;
   color: #333;
-  line-height: 1.6;
+  line-height: 1.5;
 }
 
 .education {
-  margin-top: 2.5rem;
+  margin-top: 3rem;
 }
 
 .education h3 {
   font-size: 1.8rem;
   margin-bottom: 1.5rem;
-  color: #1a2a6c;
+  color: #3d4f1e;
   text-align: center;
 }
 
 .educationItem {
   display: flex;
   justify-content: space-between;
-  border-left: 3px solid #b21f1f;
+  border-left: 3px solid #b72025;
   padding-left: 1.5rem;
   margin-bottom: 1.5rem;
   padding-bottom: 1rem;
@@ -87,7 +90,7 @@
 }
 
 .degree h4 {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   margin-bottom: 0.3rem;
 }
 
@@ -101,7 +104,7 @@
 
 .gpa {
   font-weight: 600;
-  color: #1a2a6c;
+  color: #3d4f1e;
 }
 
 @media (max-width: 768px) {
