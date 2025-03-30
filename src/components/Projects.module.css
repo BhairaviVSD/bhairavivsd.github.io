@@ -1,6 +1,6 @@
 .projects {
   padding: 6rem 2rem;
-  background-color: #fdf8f8; /* light blush background */
+  background-color: #fffdfc;
 }
 
 .container {
@@ -13,7 +13,7 @@
   font-size: 2.5rem;
   margin-bottom: 3rem;
   position: relative;
-  color: #2c2c2c;
+  color: #e94e57;
 }
 
 .sectionTitle::after {
@@ -24,7 +24,7 @@
   transform: translateX(-50%);
   width: 80px;
   height: 4px;
-  background: linear-gradient(to right, #ef476f, #ffd166);
+  background: linear-gradient(to right, #e94e57, #f4c95d);
 }
 
 .projectsGrid {
@@ -35,10 +35,10 @@
 }
 
 .projectCard {
-  background-color: #ffffff;
-  border-radius: 10px;
-  padding: 1.8rem;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.06);
+  background-color: #fdf8f8;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   display: flex;
   flex-direction: column;
@@ -46,12 +46,12 @@
 }
 
 .projectCard:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.1);
 }
 
 .projectCard h3 {
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   margin-bottom: 1rem;
   color: #2c2c2c;
 }
@@ -59,8 +59,8 @@
 .projectCard p {
   margin-bottom: 1.5rem;
   line-height: 1.6;
-  color: #444;
   flex-grow: 1;
+  color: #444;
 }
 
 .skills {
@@ -71,8 +71,8 @@
 }
 
 .skill {
-  background-color: #f4e2e2;
-  color: #b21f1f;
+  background-color: #f4e5dc;
+  color: #2c2c2c;
   padding: 0.3rem 0.8rem;
   border-radius: 20px;
   font-size: 0.8rem;
@@ -82,7 +82,7 @@
 .projectLink {
   display: inline-flex;
   align-items: center;
-  color: #ef476f;
+  color: #e94e57;
   font-weight: 600;
   text-decoration: none;
   gap: 0.5rem;
@@ -102,18 +102,17 @@
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  color: #1a2a6c;
+  color: #2c2c2c;
   font-weight: 600;
   text-decoration: none;
   padding: 0.8rem 2rem;
-  border: 2px solid #ef476f;
+  border: 2px solid #2c2c2c;
   border-radius: 4px;
   transition: all 0.3s ease;
 }
 
 .moreProjects a:hover {
-  background-color: #ffe6eb;
-  color: #ef476f;
+  background-color: #f9e9e9;
 }
 
 @media (max-width: 768px) {

@@ -1,6 +1,6 @@
 .experience {
   padding: 6rem 2rem;
-  background-color: #fff3f3;
+  background-color: #fdf8f8;
 }
 
 .container {
@@ -13,7 +13,7 @@
   font-size: 2.5rem;
   margin-bottom: 3rem;
   position: relative;
-  color: #c1121f;
+  color: #e94e57;
 }
 
 .sectionTitle::after {
@@ -24,23 +24,22 @@
   transform: translateX(-50%);
   width: 80px;
   height: 4px;
-  background: linear-gradient(to right, #ef476f, #ffd166);
-  border-radius: 2px;
+  background: linear-gradient(to right, #e94e57, #f4c95d);
 }
 
 .tabsContainer {
   display: flex;
   min-height: 350px;
   border-radius: 8px;
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 5px 20px rgba(0,0,0,0.05);
   overflow: hidden;
 }
 
 .tabsList {
   display: flex;
   flex-direction: column;
-  min-width: 220px;
-  background-color: #fbe2e3;
+  min-width: 200px;
+  background-color: #f1f1f1;
 }
 
 .tabButton {
@@ -50,20 +49,20 @@
   text-align: left;
   font-size: 1rem;
   font-weight: 500;
-  color: #6e6e6e;
+  color: #2c2c2c;
   cursor: pointer;
   transition: all 0.3s ease;
   position: relative;
 }
 
 .tabButton:hover {
-  background-color: rgba(239, 71, 111, 0.1);
-  color: #c1121f;
+  background-color: rgba(233, 78, 87, 0.1);
+  color: #e94e57;
 }
 
 .tabButton.active {
-  background-color: #fff;
-  color: #c1121f;
+  background-color: #fffdfc;
+  color: #e94e57;
   font-weight: 600;
 }
 
@@ -74,7 +73,7 @@
   top: 0;
   height: 100%;
   width: 4px;
-  background-color: #ef476f;
+  background-color: #e94e57;
 }
 
 .tabContent {
@@ -94,11 +93,11 @@
 }
 
 .company {
-  color: #ef476f;
+  color: #e94e57;
 }
 
 .period {
-  color: #6c757d;
+  color: #888;
   font-style: italic;
 }
 
@@ -119,7 +118,7 @@
   content: '▹';
   position: absolute;
   left: 0;
-  color: #ef476f;
+  color: #e94e57;
 }
 
 @media (max-width: 768px) {
