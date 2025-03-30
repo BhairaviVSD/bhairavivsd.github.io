@@ -37,7 +37,7 @@ const Experience = () => {
     },
     {
       company: "Bennett Coleman & Co. Ltd.",
-      title: "Intern – Data & Marketing",
+      title: "Data Intern",
       period: "May 2020 – Jun 2020",
       description: [
         "Processed 100K+ customer records using R to derive insights for campaign optimization, boosting engagement by 15%.",
