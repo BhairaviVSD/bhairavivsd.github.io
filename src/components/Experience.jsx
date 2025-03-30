@@ -6,7 +6,7 @@ const Experience = () => {
 
   const experiences = [
     {
-      company: "NYU",
+      company: "New York University",
       title: "Recitation Leader & Mentor",
       period: "Sep 2024 – Present",
       description: [
@@ -15,7 +15,7 @@ const Experience = () => {
       ]
     },
     {
-      company: "NYU",
+      company: "New York University",
       title: "Graduate Research Assistant",
       period: "Aug 2024 – Dec 2024",
       description: [
