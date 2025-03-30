@@ -10,7 +10,7 @@ const About = () => {
         <div className={styles.content}>
           <div className={styles.aboutText}>
             <p>
-              I'm Bhairavi Sawantdesai, a Computer Engineering graduate student at NYU with a CGPA of 3.72. I bring over two years of experience at Accenture, where I led CRM engineering, microservices migration, and cloud-native architecture development. I've built robust systems across React-Spring stacks, containerized deployments, and AI pipelines.
+              I'm Bhairavi Sawantdesai, a Computer Engineering graduate student at NYU with a CGPA of 3.704. I bring over two years of experience at Accenture, where I led CRM engineering, microservices migration, and cloud-native architecture development. I've built robust systems across React-Spring stacks, containerized deployments, and AI pipelines.
             </p>
             <p>
               At New York University, I'm actively involved in teaching, mentoring, and research—improving recession prediction models and guiding students in the IDEAS Maker Club. I love building intelligent systems that are scalable, resilient, and impactful.
@@ -51,7 +51,7 @@ const About = () => {
             </div>
             <div className={styles.eduDetails}>
               <p>Sep 2023 – May 2025</p>
-              <p className={styles.gpa}>CGPA: 3.72/4</p>
+              <p className={styles.gpa}>CGPA: 3.70/4</p>
             </div>
           </div>
 
