@@ -25,8 +25,8 @@ const Footer = () => {
             <div className={styles.linkGroup}>
               <h3>Projects</h3>
               <ul>
-                <li><a href="#projects">RAG Summarizer</a></li>
                 <li><a href="#projects">Vision-Language System for Medical Image Analysis</a></li>
+                <li><a href="#projects">RAG Summarizer</a></li>
                 <li><a href="#projects">CineMatch</a></li>
                 <li><a href="#projects">StoryCrafter</a></li>
                 <li><a href="#projects">TaskManager</a></li>

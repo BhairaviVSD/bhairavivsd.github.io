@@ -16,6 +16,15 @@ const Experience = () => {
       ]
     },
     {
+      company: "New York University",
+      title: "Recitation Leader & Mentor",
+      period: "Sep 2024 – Present",
+      description: [
+        "Led recitations for Computer Systems Organization, improving participation and performance among 60+ students.",
+        "Mentored NYC high school students through the IDEAS Maker Club, helping them build STEAM projects and navigate college pathways."
+      ]
+    },
+    {
       company: "Accenture",
       title: "Software Engineer 2",
       period: "Jun 2021 – Jul 2023",
@@ -27,12 +36,12 @@ const Experience = () => {
       ]
     },
     {
-      company: "New York University",
-      title: "Recitation Leader & Mentor",
-      period: "Sep 2024 – Present",
+      company: "Knowledge Solutions",
+      title: "Java Developer Intern",
+      period: "May 2020 – Jun 2020",
       description: [
-        "Led recitations for Computer Systems Organization, improving participation and performance among 60+ students.",
-        "Mentored NYC high school students through the IDEAS Maker Club, helping them build STEAM projects and navigate college pathways."
+        "Built a secure JSP-based banking portal serving 500+ users with seamless CRUD operations and MySQL integration.",
+        "Achieved 90%+ JUnit test coverage with Mockito, reducing testing time by 25% and ensuring release stability."
       ]
     },
     {
@@ -42,15 +51,6 @@ const Experience = () => {
       description: [
         "Processed 100K+ customer records using R to derive insights for campaign optimization, boosting engagement by 15%.",
         "Implemented segmentation and predictive models, expanding outreach to 20K new customers."
-      ]
-    },
-    {
-      company: "Knowledge Solutions",
-      title: "Java Developer Intern",
-      period: "May 2020 – Jun 2020",
-      description: [
-        "Built a secure JSP-based banking portal serving 500+ users with seamless CRUD operations and MySQL integration.",
-        "Achieved 90%+ JUnit test coverage with Mockito, reducing testing time by 25% and ensuring release stability."
       ]
     },
     {
