@@ -50,7 +50,7 @@
 .formGroup label {
   display: block;
   margin-bottom: 0.5rem;
-  color: #39FF14;
+  color: #FFFFFF;
   font-size: 0.9rem;
 }
 
@@ -89,7 +89,7 @@
 }
 
 .submitBtn:hover {
-  background-color: #39FF14;
+  background-color: #FFFFFF;
   color: #1E1E2E;
 }
 
@@ -111,7 +111,7 @@
 }
 
 .contactItem i {
-  color: #39FF14;
+  color: #FFFFFF;
   font-size: 1.2rem;
 }
 

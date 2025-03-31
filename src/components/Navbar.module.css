@@ -62,7 +62,7 @@
   height: 2px;
   bottom: -5px;
   left: 0;
-  background-color: #39FF14;
+  background-color: #0099FF;
   transition: width 0.3s ease;
 }
 
@@ -95,7 +95,7 @@
   height: 3px;
   margin: 5px auto;
   transition: all 0.3s ease;
-  background-color: #39FF14;
+  background-color: #FFFFFF;
 }
 
 @media (max-width: 768px) {

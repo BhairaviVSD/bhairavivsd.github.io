@@ -27,7 +27,7 @@
 .greeting {
   font-size: 1.5rem;
   font-weight: 400;
-  color: #39FF14;
+  color: #0099FF;
   display: block;
   margin-bottom: 0.5rem;
 }
@@ -35,7 +35,7 @@
 .fullName {
   font-size: 4rem;
   font-weight: 700;
-  background: linear-gradient(90deg, #39FF14, #0099FF);
+  background: linear-gradient(90deg, #0099FF, #0055FF);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
