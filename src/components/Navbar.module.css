@@ -6,13 +6,13 @@
   z-index: 1000;
   padding: 1.5rem 2rem;
   transition: all 0.3s ease;
+  background-color: transparent;
 }
 
 .scrolled {
-  background-color: rgba(255, 250, 240, 0.95);
+  background-color: rgba(30, 30, 46, 0.95); 
   backdrop-filter: blur(10px);
-  padding: 1rem 2rem;
-  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.5);
 }
 
 .container {
@@ -26,13 +26,13 @@
 .logo {
   font-size: 2rem;
   font-weight: 700;
-  color: #7d9a50;
+  color: #39FF14;
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
 .logo:hover {
-  color: #e29578;
+  color: #0099FF;
 }
 
 .navlinks {
@@ -43,7 +43,7 @@
 }
 
 .navlinks li a {
-  color: #444;
+  color: #FFFFFF;
   text-decoration: none;
   font-weight: 500;
   font-size: 1rem;
@@ -52,7 +52,7 @@
 }
 
 .navlinks li a:hover {
-  color: #e29578;
+  color: #39FF14;
 }
 
 .navlinks li a::after {
@@ -62,7 +62,7 @@
   height: 2px;
   bottom: -5px;
   left: 0;
-  background-color: #e29578;
+  background-color: #39FF14;
   transition: width 0.3s ease;
 }
 
@@ -72,15 +72,16 @@
 
 .resumeBtn {
   padding: 0.6rem 1rem;
-  border: 1px solid #e29578;
+  border: 1px solid #0099FF;
   border-radius: 4px;
-  color: #e29578 !important;
+  color: #0099FF !important;
   background-color: transparent;
   transition: all 0.3s ease;
 }
 
 .resumeBtn:hover {
-  background-color: rgba(226, 149, 120, 0.1);
+  background-color: #0099FF;
+  color: #1E1E2E !important;
 }
 
 .hamburger {
@@ -94,7 +95,7 @@
   height: 3px;
   margin: 5px auto;
   transition: all 0.3s ease;
-  background-color: #7d9a50;
+  background-color: #39FF14;
 }
 
 @media (max-width: 768px) {
@@ -103,29 +104,17 @@
     z-index: 101;
   }
 
-  .hamburger.active .bar:nth-child(2) {
-    opacity: 0;
-  }
-
-  .hamburger.active .bar:nth-child(1) {
-    transform: translateY(8px) rotate(45deg);
-  }
-
-  .hamburger.active .bar:nth-child(3) {
-    transform: translateY(-8px) rotate(-45deg);
-  }
-
   .navlinks {
     position: fixed;
     top: 0;
     right: -100%;
     flex-direction: column;
-    background-color: #fff8f0;
+    background-color: #1E1E2E;
     width: 70%;
     height: 100vh;
     padding-top: 4rem;
     transition: 0.3s ease;
-    box-shadow: -10px 0 30px -15px rgba(0, 0, 0, 0.2);
+    box-shadow: -10px 0 30px -15px rgba(0, 0, 0, 0.7);
     z-index: 100;
   }
 
@@ -140,11 +129,11 @@
   .bar.active:nth-child(1) {
     transform: translateY(8px) rotate(45deg);
   }
-
+  
   .bar.active:nth-child(2) {
     opacity: 0;
   }
-
+  
   .bar.active:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
   }

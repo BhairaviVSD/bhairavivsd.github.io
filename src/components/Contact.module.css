@@ -1,7 +1,7 @@
 .contact {
   padding: 6rem 2rem;
-  background-color: #fef6e4;
-  color: #444;
+  background-color: #1E1E2E;
+  color: #FFFFFF;
 }
 
 .container {
@@ -16,7 +16,7 @@
   font-size: 2.5rem;
   margin-bottom: 1rem;
   text-align: center;
-  color: #7d9a50;
+  color: #FFFFFF;
   position: relative;
 }
 
@@ -25,7 +25,7 @@
   display: block;
   width: 70px;
   height: 4px;
-  background: linear-gradient(90deg, #7d9a50, transparent);
+  background: linear-gradient(90deg, #0099FF, #39FF14);
   margin: 0.5rem auto 0;
 }
 
@@ -33,7 +33,7 @@
   text-align: center;
   max-width: 600px;
   margin-bottom: 3rem;
-  color: #666;
+  color: #CCCCCC;
   line-height: 1.6;
   font-size: 1.1rem;
 }
@@ -50,7 +50,7 @@
 .formGroup label {
   display: block;
   margin-bottom: 0.5rem;
-  color: #7d9a50;
+  color: #39FF14;
   font-size: 0.9rem;
 }
 
@@ -58,10 +58,10 @@
 .formGroup textarea {
   width: 100%;
   padding: 1rem;
-  background-color: #fff8f0;
-  border: 1px solid #e3d5ca;
+  background-color: #2C2C2C;
+  border: 1px solid #444;
   border-radius: 4px;
-  color: #333;
+  color: #FFFFFF;
   font-family: inherit;
   font-size: 1rem;
   transition: all 0.3s ease;
@@ -69,17 +69,18 @@
 
 .formGroup input:focus,
 .formGroup textarea:focus {
-  border-color: #e29578;
+  border-color: #0099FF;
   outline: none;
-  box-shadow: 0 0 0 2px rgba(226, 149, 120, 0.2);
+  box-shadow: 0 0 0 2px rgba(0, 153, 255, 0.2);
 }
 
 .submitBtn {
-  background-color: transparent;
-  color: #e29578;
-  border: 2px solid #e29578;
+  background-color: #0099FF;
+  color: #1E1E2E;
+  border: none;
   padding: 1rem 2rem;
   font-size: 1rem;
+  font-weight: 600;
   cursor: pointer;
   border-radius: 4px;
   transition: all 0.3s ease;
@@ -88,7 +89,8 @@
 }
 
 .submitBtn:hover {
-  background-color: rgba(226, 149, 120, 0.1);
+  background-color: #39FF14;
+  color: #1E1E2E;
 }
 
 .contactInfo {
@@ -105,22 +107,22 @@
   align-items: center;
   gap: 0.5rem;
   font-size: 1rem;
-  color: #555;
+  color: #BBBBBB;
 }
 
 .contactItem i {
-  color: #7d9a50;
+  color: #39FF14;
   font-size: 1.2rem;
 }
 
 .contactItem a {
-  color: #555;
+  color: #BBBBBB;
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
 .contactItem a:hover {
-  color: #e29578;
+  color: #0099FF;
 }
 
 .socialLinks {
@@ -130,13 +132,13 @@
 }
 
 .socialLinks a {
-  color: #7d9a50;
+  color: #FFFFFF;
   font-size: 1.5rem;
   transition: all 0.3s ease;
 }
 
 .socialLinks a:hover {
-  color: #e29578;
+  color: #0099FF;
   transform: translateY(-3px);
 }
 

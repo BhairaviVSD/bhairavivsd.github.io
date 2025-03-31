@@ -6,8 +6,8 @@
   position: relative;
   padding: 4rem 2rem;
   overflow: hidden;
-  background: linear-gradient(135deg, #fff1e6 0%, #fef6e4 100%);
-  color: #2c2c2c;
+  background-color: #1E1E2E; 
+  color: #FFFFFF;
 }
 
 .heroContent {
@@ -27,7 +27,7 @@
 .greeting {
   font-size: 1.5rem;
   font-weight: 400;
-  color: #7d9a50; 
+  color: #39FF14;
   display: block;
   margin-bottom: 0.5rem;
 }
@@ -35,7 +35,7 @@
 .fullName {
   font-size: 4rem;
   font-weight: 700;
-  background: linear-gradient(90deg, #7d9a50, #e29578); 
+  background: linear-gradient(90deg, #39FF14, #0099FF);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -47,14 +47,14 @@
   font-size: 2rem;
   font-weight: 600;
   margin-bottom: 1.5rem;
-  color: #2c2c2c;
+  color: #FFFFFF;
 }
 
 .description {
   font-size: 1.2rem;
   line-height: 1.6;
   margin-bottom: 2rem;
-  color: #444;
+  color: #cccccc;
 }
 
 .cta {
@@ -74,24 +74,24 @@
 }
 
 .primaryBtn {
-  background-color: #e29578; 
+  background-color: #0099FF;
   color: white;
-  border: 2px solid #e29578;
+  border: 2px solid #0099FF;
 }
 
 .primaryBtn:hover {
   background-color: transparent;
-  color: #e29578;
+  color: #0099FF;
 }
 
 .secondaryBtn {
   background-color: transparent;
-  color: #e29578;
-  border: 2px solid #e29578;
+  color: #0099FF;
+  border: 2px solid #0099FF;
 }
 
 .secondaryBtn:hover {
-  background-color: #fde2dd;
+  background-color: rgba(0, 153, 255, 0.1);
 }
 
 .socialIcons {
@@ -102,12 +102,12 @@
 
 .socialIcon {
   font-size: 1.5rem;
-  color: #888;
+  color: #cccccc;
   transition: color 0.3s ease, transform 0.3s ease;
 }
 
 .socialIcon:hover {
-  color: #e29578;
+  color: #0099FF;
   transform: translateY(-3px);
 }
 

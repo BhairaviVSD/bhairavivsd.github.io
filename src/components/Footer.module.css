@@ -1,6 +1,6 @@
 .footer {
-  background-color: #fbeee6;
-  color: #444;
+  background-color: #1E1E2E;
+  color: #FFFFFF;
   padding: 4rem 2rem 2rem;
 }
 
@@ -19,7 +19,7 @@
 .logo {
   font-size: 2.5rem;
   font-weight: 700;
-  color: #7d9a50;
+  color: #0099FF;
   margin-bottom: 1.5rem;
 }
 
@@ -30,7 +30,7 @@
 }
 
 .linkGroup h3 {
-  color: #7d9a50;
+  color: #FFFFFF;
   font-size: 1.1rem;
   margin-bottom: 1rem;
   position: relative;
@@ -43,7 +43,7 @@
   left: 0;
   width: 30px;
   height: 2px;
-  background-color: #e29578;
+  background: linear-gradient(90deg, #0099FF, #39FF14);
 }
 
 .linkGroup ul {
@@ -56,19 +56,19 @@
 }
 
 .linkGroup a {
-  color: #666;
+  color: #CCCCCC;
   text-decoration: none;
   transition: color 0.3s ease;
   font-size: 0.9rem;
 }
 
 .linkGroup a:hover {
-  color: #e29578;
+  color: #39FF14;
 }
 
 .bottom {
   padding-top: 2rem;
-  border-top: 1px solid #e8dcd1;
+  border-top: 1px solid #333;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -79,10 +79,11 @@
 .copyright,
 .credits {
   font-size: 0.9rem;
+  color: #AAAAAA;
 }
 
 .credits {
-  color: #e29578;
+  color: #0099FF;
 }
 
 @media (max-width: 768px) {
