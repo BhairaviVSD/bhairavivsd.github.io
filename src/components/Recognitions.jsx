@@ -1,6 +1,5 @@
 import React from 'react';
 import styles from './Recognitions.module.css';
-import gizemPost from '../assets/prof_kayar_post.png'; 
 
 const Recognitions = () => {
   return (
@@ -29,15 +28,6 @@ const Recognitions = () => {
               a real-time road quality classification tool using SVM, computer vision, and GPS.
             </p>
           </div>
-
-          <div className={styles.item}>
-          <h3>📢 Recognized by Professor Gizem Kayar, NYU</h3>
-          <p>
-            Appreciated by CS201 Professor for outstanding TA support during a challenging semester.
-            Showcased in her LinkedIn post thanking her assistants.
-          </p>
-          <img src={gizemPost} alt="LinkedIn post from Professor Gizem Kayar" className={styles.postImage} />
-        </div>
         </div>
       </div>
     </section>

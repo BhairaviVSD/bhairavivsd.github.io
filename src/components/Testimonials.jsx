@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './Testimonials.module.css';
+import gizemPost from '../assets/prof_kayar_post.png'; 
 
 const Testimonials = () => {
   return (
@@ -20,6 +21,23 @@ const Testimonials = () => {
           </div>
           <p className={styles.name}>— Soumya Mohapatra, Senior Analyst at Accenture</p>
         </div>
+
+        <div className={styles.card}>
+          <div className={styles.quoteBlock}>
+            <p className={styles.quote}>
+              "Thank you for your hard work throughout the semester — CS201 couldn’t have run smoothly without you!"
+            </p>
+          </div>
+          <p className={styles.name}>— Professor Gizem Kayar, New York University</p>
+          <div className={styles.imageWrapper}>
+            <img
+              src={gizemPost}
+              alt="LinkedIn post from Professor Gizem Kayar"
+              className={styles.postImage}
+            />
+          </div>
+        </div>
+
       </div>
     </section>
   );
