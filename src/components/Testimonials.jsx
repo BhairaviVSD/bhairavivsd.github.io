@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './Testimonials.module.css';
 import gizemPost from '../assets/prof_kayar_post.png';
+import soummyaPost from '../assets/accent_soumya_rec.png';
 
 const Testimonials = () => {
   return (
@@ -9,7 +10,7 @@ const Testimonials = () => {
         <h2 className={styles.sectionTitle}>What Others Say</h2>
 
         <div className={styles.card}>
-          <div className={styles.quoteBlock}>
+          {/* <div className={styles.quoteBlock}>
             <p className={styles.quote}>
               "I had the pleasure of working with Bhairavi at Accenture and I can say without hesitation that she is one of the most talented and hardworking professionals I have ever had the pleasure of working with.
             </p>
@@ -20,7 +21,14 @@ const Testimonials = () => {
               Overall, I would highly recommend Bhairavi for any role. She is a talented and dedicated professional with a great attitude and an exceptional work ethic. Any team or organization would be lucky to have her on board."
             </p>
           </div>
-          <p className={styles.name}>— Soumya Mohapatra, Senior Analyst at Accenture</p>
+          <p className={styles.name}>— Soumya Mohapatra, Senior Analyst at Accenture</p> */}
+          <div className={styles.imageWrapper}>
+            <img
+              src={soummyaPost}
+              alt="LinkedIn Recommendation from Soumya Mohapatra, Senior Analyst at Accenture"
+              className={styles.postImage}
+            />
+          </div>
         </div>
 
         <div className={`${styles.card} ${styles.gizemCard}`}>
