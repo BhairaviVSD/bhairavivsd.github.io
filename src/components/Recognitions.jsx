@@ -31,13 +31,13 @@ const Recognitions = () => {
           </div>
 
           <div className={styles.item}>
-            <h3>📢 Recognized by Professor Gizem Kayar, NYU</h3>
-            <p>
-              Appreciated by CS201 Professor for outstanding TA support during a challenging semester.
-              Showcased in her LinkedIn post thanking her assistants.
-            </p>
-            <img src={gizemPost} alt="LinkedIn post from Professor Gizem Kayar" className={styles.postImage} />
-          </div>
+          <h3>📢 Recognized by Professor Gizem Kayar, NYU</h3>
+          <p>
+            Appreciated by CS201 Professor for outstanding TA support during a challenging semester.
+            Showcased in her LinkedIn post thanking her assistants.
+          </p>
+          <img src={gizemPost} alt="LinkedIn post from Professor Gizem Kayar" className={styles.postImage} />
+        </div>
         </div>
       </div>
     </section>
