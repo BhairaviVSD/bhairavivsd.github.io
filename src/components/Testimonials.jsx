@@ -8,7 +8,11 @@ const Testimonials = () => {
         <h2 className={styles.sectionTitle}>What Others Say</h2>
         <div className={styles.card}>
           <p className={styles.quote}>
-            “Bhairavi is one of the most talented and hardworking professionals I have ever worked with. She's technically brilliant, a great team player, and consistently goes above and beyond. I'd highly recommend her for any role.”
+            "I had the pleasure of working with Bhairavi at Accenture and I can say without hesitation that she is one of the most talented and hardworking professionals I have ever had the pleasure of working with.
+
+            She has impressive technical skills, and also a great team player and an excellent communicator. She consistently demonstrated a willingness to go above and beyond her duties to ensure that the team achieved its objectives. She was always willing to lend a helping hand to colleagues and was a great source of knowledge and guidance.
+
+            Overall, I would highly recommend Bhairavi for any role. She is a talented and dedicated professional with a great attitude and an exceptional work ethic. Any team or organization would be lucky to have her on board."
           </p>
           <p className={styles.name}>— Soumya Mohapatra, Senior Analyst at Accenture</p>
         </div>
