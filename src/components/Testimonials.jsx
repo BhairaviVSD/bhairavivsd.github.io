@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Testimonials.module.css';
-import gizemPost from '../assets/gizem-post.png';
+import gizemPost from '../assets/prof_kayar_post.png';
 
 const Testimonials = () => {
   return (
