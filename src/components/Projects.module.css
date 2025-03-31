@@ -25,7 +25,7 @@
   transform: translateX(-50%);
   width: 80px;
   height: 4px;
-  background: linear-gradient(to right, #0099FF, #39FF14);
+  background: linear-gradient(to right, #0099FF, #0055FF);
 }
 
 .projectsGrid {
