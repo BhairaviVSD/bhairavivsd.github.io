@@ -36,6 +36,10 @@ const Hero = () => {
         <div className={styles.shape}></div>
         <div className={styles.shape}></div>
       </div>
+
+      <a href="#about" className={styles.scrollIndicator}>
+        <i className="fas fa-arrow-down"></i>
+      </a>
     </section>
   );
 };

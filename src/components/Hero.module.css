@@ -149,3 +149,27 @@
     gap: 1rem;
   }
 }
+
+.scrollIndicator {
+  position: absolute;
+  bottom: 2rem;
+  right: 2rem;
+  font-size: 1.5rem;
+  color: #0099ff;
+  animation: bounce 2s infinite;
+  cursor: pointer;
+  z-index: 20;
+}
+
+.scrollIndicator:hover {
+  color: #39ff14;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(8px);
+  }
+}
