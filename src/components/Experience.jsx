@@ -10,15 +10,15 @@ const Experience = () => {
       title: "Graduate Research Assistant",
       period: "Aug 2024 – Dec 2024",
       description: [
-        "Designed a recession forecasting system using time-series anomaly detection and econometric models on 1.2M+ economic indicators, boosting predictive accuracy by 15%.",
-        "Enhanced early warning capabilities for researchers by uncovering macroeconomic regime shifts, reducing detection latency by 30%.",
-        "Built a real-time pipeline with Apache Spark and AWS Lambda, enabling sub-2s updates to dashboards and speeding up ML model iteration by 20%."
+        "Implemented a real-time recession forecasting pipeline to process 1.2M+ macroeconomic indicators, enhancing prediction accuracy by 15% through advanced anomaly detection and econometric modeling.",
+        "Applied Markov-switching models and multivariate filters to detect regime shifts with 30% lower latency, enabling faster recognition of market transitions in research outputs.",
+        "Orchestrated a scalable, event-driven data infrastructure using Apache Spark and AWS Lambda, delivering sub-2s dashboard refreshes and accelerating downturn signal surfacing by 20%."
       ]
     },
     {
       company: "New York University",
       title: "Recitation Leader & Mentor",
-      period: "Sep 2024 – Present",
+      period: "Sep 2024 – May 2025",
       description: [
         "Led recitations for Computer Systems Organization, improving participation and performance among 60+ students.",
         "Mentored NYC high school students through the IDEAS Maker Club, helping them build STEAM projects and navigate college pathways."
@@ -29,11 +29,12 @@ const Experience = () => {
       title: "Software Engineer 2",
       period: "Jun 2021 – Jul 2023",
       description: [
-        "Engineered a serverless backend using AWS Lambda, S3, and DynamoDB that cut compute costs by 40% and improved internal processing efficiency.",
-        "Developed a Vue.js + GraphQL dashboard accessed by 30K+ users; API optimization and state management reduced load time by 40%.",
-        "Deployed microservices on Kubernetes to handle 10M+ transactions/day, improving service reliability and halving deployment time.",
-        "Led the frontend development of 20+ modular React components and automated CI/CD using Jenkins and Docker, reducing release cycles from 4 weeks to 5 days."
-      ]
+        "Engineered backend services for transaction-intensive systems using Spring Boot, optimizing API throughput to improve response speed by 18% and reduce system errors by 25%.",
+        "Redesigned a client-facing interface in React and facilitated a monorepo migration, streamlining development workflows and reducing build failures by 60%.",
+        "Led the migration of a sales and strategy dashboard from Angular to Vue.js, cutting frontend load times by 35% and improving user engagement for 30K+ global users.",
+        "Refactored ETL pipelines built on Informatica, minimizing data latency by 25% and improving the reliability of cross-regional sales and marketing insights.",
+        "Streamlined release operations by enhancing CI/CD pipelines with Docker and Jenkins, reducing manual intervention by 50%, accelerating regression testing, and improving overall deployment reliability."
+      ]      
     },
     {
       company: "Knowledge Solutions",

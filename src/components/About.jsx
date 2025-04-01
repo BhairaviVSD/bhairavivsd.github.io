@@ -47,7 +47,7 @@ const About = () => {
           <div className={styles.educationItem}>
             <div className={styles.degree}>
               <h4>Master of Science in Computer Engineering</h4>
-              <p>New York University, USA</p>
+              <p>New York University, NY, USA</p>
             </div>
             <div className={styles.eduDetails}>
               <p>Sep 2023 – May 2025</p>
